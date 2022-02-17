@@ -4,11 +4,14 @@ title: "Info"
 
 ### Contact
 
-You can best reach me via one of the following ways:
+You can reach me via one of the following ways:
 
 - E-Mail: [contact@rubikscraft.nl](mailto:contact@rubikscraft.nl)
 - Discord: [rubikscraft#0621](https://discord.com/users/350013809311744001)
 - Matrix: [@rubikscraft:matrix.org](https://matrix.to/#/@rubikscraft:matrix.org)
+
+Other personal links:
+
 - GitLab: [gitlab.com/rubikscraft](https://gitlab.com/rubikscraft)
 - GitHub: [github.com/rubikscraft](https://github.com/rubikscraft)
 

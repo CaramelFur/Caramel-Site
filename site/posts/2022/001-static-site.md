@@ -1,8 +1,8 @@
 ---
-title: "Making a static site"
+title: "First post"
 date: 2022-2-17
 ---
 
-### Hello
+### Hello world
 
-Things
+This is just a test post, nothing interesting here.
