@@ -3,4 +3,14 @@ title: "Rubikscraft"
 subtitle: "A Developer"
 ---
 
-Hi there, I'm Rubikscraft.
+Hello World!
+
+```cpp
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+```

@@ -1,39 +1,61 @@
+<!DOCTYPE html>
+
 <html lang='en'>
 
-  <head>
-    <meta charset='UTF-8' />
-    <title>{{sitename}} - {{title}}</title>
-    <meta name='description' content='{{description}}' />
-    <meta name='viewport' content='device-width, initial-scale=1.0' />
-    <meta name='generator' content='metalsmith' />
+<head>
+  <meta charset='UTF-8' />
+  <title>{{sitename}} - {{title}}</title>
+  <meta name='description' content='{{description}}' />
+  <meta name='Author' content='{{author}}' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta name='generator' content='metalsmith' />
 
-    <link rel='stylesheet' href='/css/main.css' />
-  </head>
+  <meta property="og:title" content="{{sitename}} - {{title}}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{siteurl}}">
+  <meta property="og:description" content="{{social_description}}">
+  <meta property="og:image" content="{{social_image}}">
 
-  <body>
-    <div class='container'>
-      <header>
-        <nav>
-          <h1>{{sitename}}</h1>
-          <a href='/'>Home</a>
-          <a href='/posts'>Posts</a>
-          <a href='/info'>Info</a>
-        </nav>
+  <link rel="icon" href="/images/favicon.ico">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/images/favicon.png">
 
-        <h1>{{title}}</h1>
-        {{#if subtitle}}
-          <h3>{{subtitle}}</h3>
-        {{/if}}
-      </header>
-      <main>
-        {{{contents}}}
-      </main>
-      <!--<footer>
+  <link rel="preload" href="/fonts/opensans.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="styles.css" />
+  </noscript>
+
+  <link rel="preload" href="/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="styles.css" />
+  </noscript>
+</head>
+
+<body>
+  <div class='container'>
+    <header>
+      <nav>
+        <h1>{{sitename}}</h1>
+        <a href='/'>Home</a>
+        <a href='/posts'>Posts</a>
+        <a href='/info'>Info</a>
+      </nav>
+
+      <h1>{{title}}</h1>
+      {{#if subtitle}}
+      <h2>{{subtitle}}</h2>
+      {{/if}}
+    </header>
+    <main>
+      {{permalink}}
+      {{{contents}}}
+    </main>
+    <footer>
       <p>
         Made with <a href="https://metalsmith.io/">Metalsmith</a>
       </p>
-    </footer>-->
-    </div>
-  </body>
+    </footer>
+  </div>
+</body>
 
 </html>

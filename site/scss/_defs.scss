@@ -23,20 +23,20 @@
 // sizes
 $em: 18px;
 
-@import url('https://rsms.me/inter/inter-ui.css');
+// fonts
+$serif: 'Open Sans', 'Arial', sans-serif; //'Century Schoolbook', serif;
+$sans-serif: 'Open Sans', 'Arial', sans-serif; //'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+$monospace: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+
 html {
-  font-family: 'Inter UI', sans-serif;
+  font-family: $sans-serif;
 }
 @supports (font-variation-settings: normal) {
   html {
-    font-family: 'Inter UI var alt', sans-serif;
+    font-family: $sans-serif;
   }
 }
 
-// fonts
-$serif: 'Inter UI', sans-serif; //'Century Schoolbook', serif;
-$sans-serif: 'Inter UI', sans-serif; //'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
-$monospace: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
 // colors
 $primary: #00bcd4;

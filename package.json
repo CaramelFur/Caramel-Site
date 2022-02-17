@@ -8,11 +8,13 @@
   },
   "type": "module",
   "dependencies": {
+    "@metalsmith/layouts": "^2.4.0",
     "@metalsmith/markdown": "^1.4.0",
     "@metalsmith/permalinks": "^2.4.0",
     "jstransformer-handlebars": "^1.2.0",
     "metalsmith": "^2.4.2",
-    "metalsmith-layouts": "^2.3.1",
+    "metalsmith-inline-css": "^1.0.9",
+    "metalsmith-prism": "https://github.com/wernerglinka/metalsmith-prism.git",
     "metalsmith-sass": "^2.0.0",
     "node-sass": "^7.0.1",
     "shevy": "^2.1.0"
