@@ -20,7 +20,10 @@ Other personal links:
 If you for whatever reason wish to donate, you can do so with monero.
 
 Address:
-> 88Qbx4hpYJa616aTFSfZjaayrZD5NPC9qFPJL721XuJ1TN8fqV7pm3rdBHizJCuhLeM4rpuu6oiL61tXw6vrZeYbPeu4VdJ
+
+```txt
+88Qbx4hpYJa616aTFSfZjaayrZD5NPC9qFPJL721XuJ1TN8fqV7pm3rdBHizJCuhLeM4rpuu6oiL61tXw6vrZeYbPeu4VdJ
+```
 
 QR:
 

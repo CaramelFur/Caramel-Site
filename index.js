@@ -24,6 +24,8 @@ Metalsmith(__dirname)
     description: 'A Developer',
     social_description: 'A Developer',
     social_image: '/image/profile.png',
+
+    buildyear: new Date().getFullYear(),
   })
   .source('./site')
   .destination('./dist')
@@ -58,9 +60,7 @@ Metalsmith(__dirname)
     }),
   )
   .use(
-    metal_prism({
-      lineNumbers: true,
-    }),
+    metal_prism(),
   )
   .use(
     layouts({
