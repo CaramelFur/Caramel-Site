@@ -74,7 +74,7 @@ header label {
 header {
   // padding: bs(3) bs(1);
   padding: bs(3) bs(1) bs(2);
-  width: bs(25);
+  width: bs(42);
   margin: 0 auto;
   text-align: center;
 
@@ -148,9 +148,9 @@ header {
 }
 
 main {
-  max-width: 75rem;
+  max-width: bs(42);
   margin: 0 auto;
-  padding: 0 1.5em 0 1.5em;
+  padding: 0 1.5rem 0 1.5rem;
   border-top: 0.5px solid $site-text-grey;
 }
 

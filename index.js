@@ -10,6 +10,7 @@ import Metalsmith from 'metalsmith';
 import layouts from '@metalsmith/layouts';
 import markdown from '@metalsmith/markdown';
 import permalinks from '@metalsmith/permalinks';
+import collections from '@metalsmith/collections';
 
 import sass from 'metalsmith-sass';
 import metal_prism from 'metalsmith-prism';
@@ -28,6 +29,15 @@ Metalsmith(__dirname)
   .destination('./dist')
   .clean(true)
   .use(
+    collections({
+      posts: {
+        pattern: 'posts/**/*.md',
+        sortBy: 'date',
+        reverse: true,
+      },
+    }),
+  )
+  .use(
     sass({
       outputDir: 'css',
       includePaths: ['scss'],
@@ -36,7 +46,15 @@ Metalsmith(__dirname)
   .use(markdown())
   .use(
     permalinks({
+      indexFile: 'index.html',
       relative: false,
+      linksets: [
+        {
+          match: { collection: 'posts' },
+          pattern: 'posts/:title',
+          unique: true,
+        },
+      ],
     }),
   )
   .use(
@@ -47,7 +65,7 @@ Metalsmith(__dirname)
   .use(
     layouts({
       engine: 'handlebars',
-      default: 'layout.hbs',
+      default: 'main.hbs',
       pattern: '**/*.html',
     }),
   )

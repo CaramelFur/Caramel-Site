@@ -45,10 +45,22 @@
       {{#if subtitle}}
       <h2>{{subtitle}}</h2>
       {{/if}}
+
+      {{#if date}}
+      <span>{{date}}</span>
+      {{/if}}
     </header>
     <main>
-      {{permalink}}
       {{{contents}}}
+      {{#if postlist}}
+      <ul>
+        {{#each collections.posts}}
+        <li>
+          <a href="/{{ path }}">{{date}} - {{ title }}</a>
+        </li>
+        {{/each}}
+      </ul>
+      {{/if}}
     </main>
     <footer>
       <p>
