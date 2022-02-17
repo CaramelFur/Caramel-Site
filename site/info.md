@@ -27,4 +27,4 @@ Address:
 
 QR:
 
-![Monero QR](/image/monero.svg)
+![Monero QR code](/image/monero.svg "Scan using your crypto wallet")

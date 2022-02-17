@@ -27,6 +27,13 @@
 
 img {
   max-width: 100%;
+  border-radius: .2 * bs(1);
+
+  height: auto;
+  max-height: 50vh;
+
+  margin: 0 auto;
+
 }
 
 body {
@@ -231,10 +238,6 @@ blockquote {
   }
 }
 
-img {
-  height: auto;
-  margin: 0 auto;
-}
 
 figure {
   margin: bs(1);
