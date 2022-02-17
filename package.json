@@ -1,0 +1,21 @@
+{
+  "name": "rubikscraft-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "serve dist"
+  },
+  "type": "module",
+  "dependencies": {
+    "@metalsmith/markdown": "^1.4.0",
+    "@metalsmith/permalinks": "^2.4.0",
+    "jstransformer-handlebars": "^1.2.0",
+    "metalsmith": "^2.4.2",
+    "metalsmith-layouts": "^2.3.1"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
