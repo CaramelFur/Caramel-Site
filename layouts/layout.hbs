@@ -1,23 +1,39 @@
-<!doctype html>
-<html lang="en">
+<html lang='en'>
 
-<head>
-  <meta charset="UTF-8">
-  <title>{{ sitename }} &mdash; {{ title }}</title>
-  <meta name="description" content="{{ description }}">
-  <meta name="viewport" content="device-width, initial-scale=1.0">
-  <meta name="generator" content="metalsmith">
+  <head>
+    <meta charset='UTF-8' />
+    <title>{{sitename}} - {{title}}</title>
+    <meta name='description' content='{{description}}' />
+    <meta name='viewport' content='device-width, initial-scale=1.0' />
+    <meta name='generator' content='metalsmith' />
 
-  <link rel="stylesheet" href="/css/chota.css">
-  <link rel="stylesheet" href="/css/custom.css">
-</head>
+    <link rel='stylesheet' href='/css/main.css' />
+  </head>
 
-<body>
-  <div class="container">
-    <main>
-      {{{ contents }}}
-    </main>
-  </div>
-</body>
+  <body>
+    <div class='container'>
+      <header>
+        <nav>
+          <h1>{{sitename}}</h1>
+          <a href='/'>Home</a>
+          <a href='/posts'>Posts</a>
+          <a href='/info'>Info</a>
+        </nav>
+
+        <h1>{{title}}</h1>
+        {{#if subtitle}}
+          <h3>{{subtitle}}</h3>
+        {{/if}}
+      </header>
+      <main>
+        {{{contents}}}
+      </main>
+      <!--<footer>
+      <p>
+        Made with <a href="https://metalsmith.io/">Metalsmith</a>
+      </p>
+    </footer>-->
+    </div>
+  </body>
 
 </html>

@@ -1,5 +1,6 @@
+---
+title: "Rubikscraft"
+subtitle: "A Developer"
+---
 
-# Home
-
-Things
-
+Hi there, I'm Rubikscraft.
