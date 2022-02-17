@@ -24,4 +24,4 @@ Address:
 
 QR:
 
-![Monero QR](/image/monero.svg "a title")
+![Monero QR](/image/monero.svg)
