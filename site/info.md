@@ -14,6 +14,7 @@ Other personal links:
 
 - GitLab: [gitlab.com/rubikscraft](https://gitlab.com/rubikscraft)
 - GitHub: [github.com/rubikscraft](https://github.com/rubikscraft)
+- Steam: [steamcommunity.com/id/rubikscraft/](https://steamcommunity.com/id/rubikscraft/)
 
 ### Donate
 

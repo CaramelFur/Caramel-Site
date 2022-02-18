@@ -2,5 +2,6 @@
   "host": "1.2.3.4",
   "username": "username",
   "password": "pass",
-  "path": "/path"
+  "path": "/path",
+  "dryRun": true
 }
