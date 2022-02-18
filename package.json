@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js && serve dist"
+    "start": "yarn build && serve dist",
+    "build": "node build.js",
+    "deploy": "yarn build && node deploy.js"
   },
   "type": "module",
   "dependencies": {
@@ -18,6 +20,7 @@
     "metalsmith-prism": "https://github.com/wernerglinka/metalsmith-prism.git",
     "metalsmith-sass": "^2.0.0",
     "node-sass": "^7.0.1",
+    "sftp-upload": "^1.0.3",
     "shevy": "^2.1.0"
   },
   "devDependencies": {
