@@ -1,6 +1,7 @@
 ---
 title: "Rubikscraft"
 subtitle: "A Developer"
+notitle: true
 ---
 
 Hi there, I'm Rubikscraft. If you're visiting this page you've probably come to check out who I am and what I do.
