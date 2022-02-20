@@ -78,6 +78,10 @@ header label {
   display: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  scroll-margin-top: 3rem;
+}
+
 header {
   // padding: bs(3) bs(1);
   padding: bs(3) bs(1) bs(2);
@@ -117,6 +121,10 @@ header {
 
     text-align: right;
 
+    height: 3rem;
+    display: flex;
+    align-items: center;
+
     h1 {
       float: left;
       font-size: inherit;
@@ -132,7 +140,7 @@ header {
       font-family: $serif;
       color: white;
       
-      margin-left: bs(1);
+      margin-left: bs(0.5);
     }
 
     a:first-of-type {
