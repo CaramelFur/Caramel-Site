@@ -5,18 +5,18 @@
 <head>
   <meta charset='UTF-8' />
   {{#if notitle}}
-  <title>{{sitename}}</title>
+  <title>{{site.name}}</title>
   {{else}}
-  <title>{{sitename}} - {{title}}</title>
+  <title>{{site.name}} - {{title}}</title>
   {{/if}}
-  <meta name='description' content='{{description}}' />
-  <meta name='Author' content='{{author}}' />
+  <meta name='description' content='{{site.description}}' />
+  <meta name='Author' content='{{site.author}}' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <meta name='generator' content='metalsmith' />
 
   <meta property="og:title" content="{{sitename}} - {{title}}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{siteurl}}">
+  <meta property="og:url" content="{{site.url}}">
   <meta property="og:description" content="{{social_description}}">
   <meta property="og:image" content="{{social_image}}">
 
@@ -60,7 +60,7 @@
       <ul>
         {{#each collections.posts}}
         <li>
-          <a href="/{{ path }}">{{date}} - {{ title }}</a>
+          <a href="/{{ path }}">[{{date}}] {{ title }}</a>
         </li>
         {{/each}}
       </ul>
