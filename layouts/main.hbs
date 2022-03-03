@@ -24,15 +24,12 @@
   <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/images/favicon.png">
 
-  <link rel="preload" href="/fonts/opensans.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  {{#each styles}}
+  <link rel="preload" href="{{this}}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <noscript>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="{{this}}" />
   </noscript>
-
-  <link rel="preload" href="/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <noscript>
-    <link rel="stylesheet" href="styles.css" />
-  </noscript>
+  {{/each}}
 </head>
 
 <body>

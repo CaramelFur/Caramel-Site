@@ -1,5 +1,6 @@
 {
   "host": "1.2.3.4",
+  "port": 22,
   "username": "username",
   "password": "pass",
   "path": "/path",
