@@ -7,4 +7,4 @@ date: 2022-2-17
 
 This is just a test post, nothing interesting here.
 
-![Rick](https://i.rubikscraft.nl/i/07ea2138-8f6b-4837-aea7-925a4589f88d.webp)
+![Rick](https://i.rubikscraft.nl/i/5d915f5e-3a56-48d5-9dbf-54bd63f149d4.webp)
