@@ -48,24 +48,15 @@
       {{/if}}
 
       {{#if date}}
-      <span>{{date}}</span>
+      <span>{{makeISO date}}</span>
       {{/if}}
     </header>
     <main>
       {{{ content }}}
-      {{#if postlist}}
-      <ul>
-        {{#each collections.posts}}
-        <li>
-          <a href="/{{ path }}">[{{date}}] {{ title }}</a>
-        </li>
-        {{/each}}
-      </ul>
-      {{/if}}
     </main>
     <footer>
       <p> Copyright &copy; {{buildyear}} {{site.author}} </p>
-      <p> Made with <a href="https://www.11ty.dev/">eleventy</a> </p>
+      <p> Made with <a href="https://www.11ty.dev/">Eleventy</a> - <a href="{{site.source}}">Source code</a></p>
     </footer>
   </div>
 </body>
