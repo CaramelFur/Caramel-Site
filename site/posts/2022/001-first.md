@@ -1,6 +1,6 @@
 ---
 title: "First post"
-date: 2022-2-17
+date: 2022-02-17
 ---
 
 ### Hello world

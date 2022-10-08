@@ -52,7 +52,7 @@
       {{/if}}
     </header>
     <main>
-      {{{contents}}}
+      {{{ content }}}
       {{#if postlist}}
       <ul>
         {{#each collections.posts}}
@@ -64,8 +64,8 @@
       {{/if}}
     </main>
     <footer>
-      <p> Copyright &copy; {{buildyear}} {{author}} </p>
-      <p> Made with <a href="https://metalsmith.io/">Metalsmith</a> </p>
+      <p> Copyright &copy; {{buildyear}} {{site.author}} </p>
+      <p> Made with <a href="https://www.11ty.dev/">eleventy</a> </p>
     </footer>
   </div>
 </body>

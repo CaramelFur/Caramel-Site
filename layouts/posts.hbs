@@ -1,0 +1,12 @@
+---
+layout: main
+---
+{{{ content }}}
+
+<ul>
+  {{#each collections.posts }}
+  <li>
+    <a href="{{ this.url }}"> [{{ this.data.isodate }}] {{ this.data.title }}</a>
+  </li>
+  {{/each}}
+</ul>
