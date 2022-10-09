@@ -12,6 +12,6 @@ Most of what I know now, I've taught myself using the internet. For me its the f
 
 I also have 2 cats and a dog, and suprisingly they go very well together. Still, the cats are assholes, but thats just cats. At the bottom of this page is a picture of one of them.
 
-Since I prefer to keep my personal information online to a mininum, there is not much more to put here. Also not a suprise then that I dislike big tech companies such as Facebook and Google. Anyways, if you wish to talk for whatever reason, you find my contact info [here](/info#contact).
+Since I prefer to keep my personal information online to a mininum, there is not much more to put here. Also not a suprise then that I dislike big tech companies such as Facebook and Google. Anyways, if you wish to talk for whatever reason, you can use [my contact info](/info#contact).
 
-![One of the Cats](https://i.rubikscraft.nl/i/b30a30c1-ba8a-443e-8f8e-a9033405b79b.jpg?width=1000 "He likes the bag")
+![One of the Cats](https://i.rubikscraft.nl/i/b30a30c1-ba8a-443e-8f8e-a9033405b79b.webp?width=1000 "He likes the bag")
