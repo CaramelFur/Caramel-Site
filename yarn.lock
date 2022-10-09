@@ -527,10 +527,10 @@ domutils@^2.8.0:
     domelementtype "^2.2.0"
     domhandler "^4.2.0"
 
-easy-sftp-deploy@^1.3.9:
-  version "1.3.9"
-  resolved "https://registry.yarnpkg.com/easy-sftp-deploy/-/easy-sftp-deploy-1.3.9.tgz#1d36b9fe76c4b852262e0da21001842e3bcd7ba8"
-  integrity sha512-zxYwWJtIwlJh5ULHzd/SgE/kJGtmucG01czegr0tDi8RwA4xo32FKi0hzcfMaVB3lbEIw16UgoqcXI+lONKkRw==
+easy-sftp-deploy@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/easy-sftp-deploy/-/easy-sftp-deploy-1.4.0.tgz#7b1e163016eb3153a2cfe9b5b663225bca5ae1cf"
+  integrity sha512-5lkBviEpAdxTHeZV/i9JM9tTqanSRGTDI+zHmNHYI/Iqk44Bm0EKW0JotAGZKECl0vZ1tTcW1prb7iVmPvpWLQ==
   dependencies:
     colors "^1.4.0"
     micromatch "^4.0.5"
