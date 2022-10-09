@@ -1,0 +1,46 @@
+@use 'global' as *;
+
+html {
+  font-family: $font-default;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+small {
+  color: $color-text-grey;
+}
+
+hr {
+  border-bottom: 1px solid $color-text;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $color-text-grey;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $color-primary;
+}
+
+figcaption {
+  color: $color-text-grey;
+  margin-top: bs(0.5);
+  font-size: 80%;
+}
+
+dt {
+  font-weight: 600;
+}

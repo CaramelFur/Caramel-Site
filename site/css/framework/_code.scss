@@ -1,0 +1,35 @@
+@use "global" as *;
+
+pre,
+code {
+  overflow-x: auto;
+}
+
+pre {
+  font-family: $font-monospace;
+  code:not([class]) {
+    padding: bs(1);
+    overflow-x: scroll;
+  }
+}
+
+code,
+kbd {
+  background: $color-code-bg;
+  border-radius: bs(.2);
+  color: $color-code-text-secondary;
+  // display: inline-block;
+  //padding: 0 bs(0.2);
+  font-family: $font-monospace;
+  font-size: 90%;
+}
+
+kbd {
+  color: $color-code-text-primary;
+  background: $color-code-bg;
+}
+
+mark {
+  background: $color-primary;
+  padding: 0 bs(0.2);
+}

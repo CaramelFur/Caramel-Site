@@ -1,14 +1,10 @@
-@import 'defs';
+@use 'base';
+@use 'font';
+@use 'forms';
 
-@import 'shevy';
+@use 'header';
+@use 'content';
+@use 'footer';
 
-@import 'tables';
-
-@import 'pre';
-@import 'headings';
-@import 'typography';
-
-@import 'responsive';
-@import 'forms';
-
-@import 'grid';
+@use 'code';
+@use 'tables';

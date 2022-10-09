@@ -1,0 +1,80 @@
+@use "global" as *;
+
+@use 'headings';
+
+main {
+  max-width: bs(42);
+  margin: 0 auto;
+  padding: 0 1.5rem 0 1.5rem;
+  border-top: 0.5px solid $color-text-grey;
+}
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+}
+
+article {
+  max-width: 100%;
+  padding: bs(1);
+}
+
+article {
+  width: bs(25);
+  margin: 0 auto;
+}
+
+ol,
+ul {
+  // margin-left: 1.75 * $em;
+  margin-top: 0;
+}
+
+li dl,
+li ol,
+li ul {
+  margin-bottom: 0;
+}
+
+dl {
+  display: inline-block;
+  margin: 0 0 bs(1) 0;
+}
+
+dt {
+  padding-top: bs(0.5);
+  padding-left: bs(0.5);
+}
+
+dd {
+  padding-bottom: bs(0.5);
+  margin-left: bs(1.5);
+
+  + dt {
+    border-top: 1px solid $color-primary;
+  }
+}
+
+blockquote {
+  border-left: 1px solid $color-primary;
+  padding: 0 bs(1);
+  margin: bs(1) 0 bs(1) bs(1);
+}
+
+figure {
+  margin: bs(1);
+  img {
+    display: block;
+  }
+}
+
+img {
+  max-width: 100%;
+  border-radius: bs(0.2);
+
+  height: auto;
+  max-height: 50vh;
+
+  margin: 0 auto;
+}
