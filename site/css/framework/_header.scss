@@ -22,14 +22,15 @@ header {
 
   nav {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
+    top: .5em;
+    left: .5em;
+    right: .5em;
     padding: bs(0.25) bs(1);
 
     background: rgba(black, 0.9);
 
     font-weight: 200;
+    border-radius: .5em;
 
     text-align: right;
 
@@ -37,11 +38,14 @@ header {
     display: flex;
     align-items: center;
 
+    overflow-x: scroll;
+
     h1 {
       float: left;
       font-size: inherit;
       line-height: inherit;
       margin: 0;
+      margin-right: auto;
 
       text-align: left;
     }
@@ -53,10 +57,6 @@ header {
       color: white;
 
       margin-left: bs(0.5);
-    }
-
-    a:first-of-type {
-      margin-left: auto;
     }
 
     label {

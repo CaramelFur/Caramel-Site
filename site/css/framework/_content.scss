@@ -2,6 +2,11 @@
 
 @use 'headings';
 
+.container {
+  max-width: bs(42);
+  margin-inline: auto;
+}
+
 main {
   max-width: 100%;
   margin: 0 auto;
@@ -71,7 +76,7 @@ figure {
 
 img {
   max-width: 100%;
-  border-radius: bs(0.2);
+  border-radius: .5em;
 
   height: auto;
   max-height: 50vh;
