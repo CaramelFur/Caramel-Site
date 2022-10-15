@@ -7,4 +7,4 @@ $ yarn install
 $ yarn start
 ```
 
-It uses the Metalsmith static site generator to convert markdown documents into a website. This is a very minimalistic website without any javascript, and a simple css framework. This framework is a modified version of the bahunya framework.
+It uses the [Elventy](https://www.11ty.dev/) static site generator, and is deployed to a self hosted Nginx server behind Cloudflare. This is a very minimalistic site with as little Javascript and CSS as possible. The javascript is only used for faster in place navigation, and is therefore not necessary for the site to work. The CSS is running is a modified version of the [Bahunya](https://hakanalpay.com/bahunya/) framework.
