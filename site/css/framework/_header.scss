@@ -38,7 +38,7 @@ header {
     display: flex;
     align-items: center;
 
-    overflow-x: scroll;
+    overflow-x: clip;
 
     h1 {
       float: left;

@@ -3,7 +3,7 @@ title: "First post"
 date: 2022-02-17
 ---
 
-### Hello world
+## Hello world
 
 This is just a test post, nothing interesting here.
 

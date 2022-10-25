@@ -2,7 +2,7 @@
 title: "Info"
 ---
 
-### Contact
+## Contact
 
 You can reach me via one of the following ways:
 
@@ -16,7 +16,7 @@ Other personal links:
 - GitHub: [github.com/rubikscraft](https://github.com/rubikscraft)
 - Steam: [steamcommunity.com/id/rubikscraft/](https://steamcommunity.com/id/rubikscraft/)
 
-### Donate
+## Donate
 
 If you for whatever reason wish to donate, you can do so with monero.
 

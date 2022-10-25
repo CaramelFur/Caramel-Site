@@ -79,7 +79,24 @@ img {
   border-radius: .5em;
 
   height: auto;
+  width: auto;
   max-height: 50vh;
 
+  color: transparent;
+  animation: 1.5s ease-in-out 0.5s infinite normal none running pulse;
+
   margin: 0 auto;
+}
+
+// create animation that pulses the background color
+@keyframes pulse {
+  0% {
+    background-color: #7f7f7f7f;
+  } 
+  50% {
+    background-color: #7f7f7f30;
+  }
+  100% {
+    background-color: #7f7f7f7f;
+  }
 }
