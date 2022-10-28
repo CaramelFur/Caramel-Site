@@ -75,17 +75,13 @@ figure {
 }
 
 img {
-  max-width: 100%;
   border-radius: .5em;
-
-  height: auto;
-  width: auto;
-  max-height: 50vh;
 
   color: transparent;
   animation: 1.5s ease-in-out 0.5s infinite normal none running pulse;
 
-  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 // create animation that pulses the background color

@@ -14,4 +14,4 @@ I also have 2 cats and a dog, and suprisingly they go very well together. Still,
 
 Since I prefer to keep my personal information online to a mininum, there is not much more to put here. Also not a suprise then that I dislike big tech companies such as Facebook and Google. Anyways, if you wish to talk for whatever reason, you can use [my contact info](/info#contact).
 
-![One of the Cats](https://i.rubikscraft.nl/i/b30a30c1-ba8a-443e-8f8e-a9033405b79b.webp?width=1000 "He likes the bag")
+![A black and white cat inside a a white bag](https://i.rubikscraft.nl/i/b30a30c1-ba8a-443e-8f8e-a9033405b79b.webp?width=700 "He really likes bags")
