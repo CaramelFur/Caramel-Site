@@ -11,8 +11,8 @@ main {
 }
 
 footer {
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
+  background: rgba(clr-rgb(footer-bg), 0.8);
+  color: clr(footer-text);
   padding: bs(2);
 
   margin-top: bs(5);
@@ -41,7 +41,7 @@ footer nav {
 blockquote footer {
   background: none;
   display: block;
-  color: $color-text-grey;
+  color: clr(text-grey);
   padding: bs(0.5) 0;
   font-size: 90%;
   text-align: start;

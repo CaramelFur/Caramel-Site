@@ -1,8 +1,9 @@
 @use 'global' as *;
+@use 'colors' as *;
 
 form {
   padding: bs(1) bs(1) 0;
-  border: solid $color-border;
+  border: solid clr(border);
   border-width: 0.2rem;
   margin-bottom: bs(1);
 
@@ -98,12 +99,12 @@ button {
 input[type='submit'],
 button[type='submit'],
 button:not([disabled]) {
-  background: $color-primary;
-  color: $color-background;
+  background: clr(primary);
+  color: clr(background);
 
   &:hover {
-    background: darken($color-primary, 15);
-    color: darken($color-background, 25);
+    background: clr(primary-darken);
+    color: clr(background-darken);
   }
 }
 

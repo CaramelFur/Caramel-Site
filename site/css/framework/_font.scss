@@ -5,7 +5,7 @@ html {
 }
 
 a {
-  color: $color-primary;
+  color: clr(primary);
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -13,11 +13,11 @@ a {
 }
 
 small {
-  color: $color-text-grey;
+  color: clr(text-grey);
 }
 
 hr {
-  border-bottom: 1px solid $color-text;
+  border-bottom: 1px solid clr(text);
 }
 
 /* width */
@@ -27,16 +27,16 @@ hr {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $color-text-grey;
+  background: clr(text-grey);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: $color-primary;
+  background: clr(primary);
 }
 
 figcaption {
-  color: $color-text-grey;
+  color: clr(text-grey);
   margin-top: bs(0.5);
   font-size: 80%;
 }

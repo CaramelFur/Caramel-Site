@@ -27,7 +27,7 @@ header {
     right: .5em;
     padding: bs(0.25) bs(1);
 
-    background: rgba(black, 0.9);
+    background: rgba(clr-rgb(header-bg), 0.9);
 
     font-weight: 200;
     border-radius: .5em;
@@ -46,6 +46,7 @@ header {
       line-height: inherit;
       margin: 0;
       margin-right: auto;
+      color: clr(header-text);
 
       text-align: left;
     }
@@ -54,13 +55,13 @@ header {
       font-weight: 700;
       text-decoration: none;
       font-family: $font-default;
-      color: white;
+      color: clr(header-text);
 
       margin-left: bs(0.5);
     }
 
     label {
-      color: white;
+      color: clr(header-text);
       cursor: pointer;
       margin: 0;
       font-style: normal;
@@ -78,7 +79,7 @@ header {
   padding: bs(0.5) 0;
   margin: 0 bs(1);
   text-align: center;
-  border-bottom: solid 1px $color-text-grey;
+  border-bottom: solid 1px clr(text-grey);
 }
 
 #menu-toggle:checked ~ a:last-of-type {

@@ -11,7 +11,7 @@ main {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 1.5rem 0 1.5rem;
-  border-top: 0.5px solid $color-text-grey;
+  border-top: 0.5px solid clr(text-grey);
 }
 
 section {
@@ -57,12 +57,12 @@ dd {
   margin-left: bs(1.5);
 
   + dt {
-    border-top: 1px solid $color-primary;
+    border-top: 1px solid clr(primary);
   }
 }
 
 blockquote {
-  border-left: 1px solid $color-primary;
+  border-left: 1px solid clr(primary);
   padding: 0 bs(1);
   margin: bs(1) 0 bs(1) bs(1);
 }

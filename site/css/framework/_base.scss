@@ -4,6 +4,8 @@
 
 * {
   box-sizing: border-box;
+  // animate color and background-color
+  // transition: color 0.2s ease, background 0.2s ease;
 }
 
 html, body {
@@ -13,6 +15,6 @@ html, body {
 }
 
 body {
-  background: $color-background;
-  color: $color-text;
+  background: clr(background);
+  color: clr(text);
 }

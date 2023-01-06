@@ -15,9 +15,9 @@ pre {
 
 code,
 kbd {
-  background: $color-code-bg;
+  background: clr(code-text-bg);
   border-radius: .5em;
-  color: $color-code-text-secondary;
+  color: clr(code-text-secondary);
   // display: inline-block;
   //padding: 0 bs(0.2);
   font-family: $font-monospace;
@@ -25,11 +25,11 @@ kbd {
 }
 
 kbd {
-  color: $color-code-text-primary;
-  background: $color-code-bg;
+  color: clr(code-text-primary);
+  background: clr(code-text-bg);
 }
 
 mark {
-  background: $color-primary;
+  background: clr(primary);
   padding: 0 bs(0.2);
 }
