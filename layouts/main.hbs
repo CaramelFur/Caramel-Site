@@ -1,91 +1,80 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <meta charset='UTF-8' />
-    {{#if notitle}}
-      <title>{{site.name}}</title>
-    {{else}}
-      <title>{{site.name}} - {{title}}</title>
-    {{/if}}
-    <meta name='description' content='{{site.description}}' />
-    <meta name='Author' content='{{site.author}}' />
-    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <meta name='generator' content='metalsmith' />
 
-    <meta property='og:title' content='{{site.name}} - {{title}}' />
-    <meta property='og:type' content='website' />
-    <meta property='og:url' content='{{site.url}}' />
-    <meta property='og:description' content='{{site.social.description}}' />
-    <meta property='og:image' content='{{site.social.image}}' />
+<head>
+  <meta charset='UTF-8' />
+  {{#if notitle}}
+  <title>{{site.name}}</title>
+  {{else}}
+  <title>{{site.name}} - {{title}}</title>
+  {{/if}}
+  <meta name='description' content='{{site.description}}' />
+  <meta name='Author' content='{{site.author}}' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta name='generator' content='metalsmith' />
 
-    <link
-      rel='apple-touch-icon'
-      sizes='180x180'
-      href='/image/favicon/apple-touch-icon.png'
-    />
-    <link
-      rel='icon'
-      type='image/png'
-      sizes='32x32'
-      href='/image/favicon/favicon-32x32.png'
-    />
-    <link
-      rel='icon'
-      type='image/png'
-      sizes='16x16'
-      href='/image/favicon/favicon-16x16.png'
-    />
-    <link rel='manifest' href='/site.webmanifest' />
+  <meta property='og:title' content='{{site.name}} - {{title}}' />
+  <meta property='og:type' content='website' />
+  <meta property='og:url' content='{{site.url}}' />
+  <meta property='og:description' content='{{site.social.description}}' />
+  <meta property='og:image' content='{{site.social.image}}' />
 
-    <style media="(prefers-color-scheme: dark)">
-      body {background: black;color: white;}
-    </style>
+  <link rel='apple-touch-icon' sizes='180x180' href='/image/favicon/apple-touch-icon.png' />
+  <link rel='icon' type='image/png' sizes='32x32' href='/image/favicon/favicon-32x32.png' />
+  <link rel='icon' type='image/png' sizes='16x16' href='/image/favicon/favicon-16x16.png' />
+  <link rel='manifest' href='/site.webmanifest' />
+  <a rel="me" href="https://furry.engineer/@caramel">mst</a>
 
+  <style media="(prefers-color-scheme: dark)">
+    body {
+      background: #000;
+      color: #fff;
+    }
+  </style>
+
+  {{#each styles}}
+  <link rel='preload' href='{{this}}' as='style' onload="this.onload=null;this.rel='stylesheet'" />
+  {{/each}}
+  <noscript>
     {{#each styles}}
-      <link
-        rel='preload'
-        href='{{this}}'
-        as='style'
-        onload="this.onload=null;this.rel='stylesheet'"
-      ></link>
-      <noscript>
-        <link rel='stylesheet' href='{{this}}' />
-      </noscript>
+    <link rel='stylesheet' href='{{this}}' />
     {{/each}}
-  </head>
+  </noscript>
+</head>
 
-  <body>
-    <div class='container'>
-      <header>
-        <nav>
-          <h1>{{site.name}}</h1>
-          <a href='/'>Home</a>
-          <a href='/posts'>Posts</a>
-          <a href='/info'>Info</a>
-        </nav>
+<body>
+  <div class='container'>
+    <header>
+      <nav>
+        <h1>{{site.name}}</h1>
+        <a href='/'>Home</a>
+        <a href='/posts'>Posts</a>
+        <a href='/info'>Info</a>
+      </nav>
 
-        <h1>{{title}}</h1>
-        {{#if subtitle}}
-          <h2>{{subtitle}}</h2>
-        {{/if}}
+      <h1>{{title}}</h1>
+      {{#if subtitle}}
+      <h2>{{subtitle}}</h2>
+      {{/if}}
 
-        {{#if date}}
-          <span>{{makeISO date}}</span>
-        {{/if}}
-      </header>
-      <main>
-        {{{content}}}
-      </main>
-      <footer>
-        <p> Copyright &copy; {{buildyear}} {{site.author}} </p>
-        <p>
-          Made with
-          <a href='https://www.11ty.dev/'>Eleventy</a>
-          -
-          <a href='{{site.source}}'>Source code</a></p>
-      </footer>
-    </div>
-    <script src='/js/main.js' defer></script>
-  </body>
+      {{#if date}}
+      <span>{{makeISO date}}</span>
+      {{/if}}
+    </header>
+    <main>
+      {{{content}}}
+    </main>
+    <footer>
+      <p> Copyright &copy; {{buildyear}} {{site.author}} </p>
+      <p>
+        Made with
+        <a href='https://www.11ty.dev/'>Eleventy</a>
+        -
+        <a href='{{site.source}}'>Source code</a>
+      </p>
+    </footer>
+  </div>
+  <script src='/js/main.js' defer></script>
+</body>
 
 </html>

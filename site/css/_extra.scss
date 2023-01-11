@@ -1,0 +1,5 @@
+// Hide a tags with rel="me"
+
+a[rel="me"] {
+  display: none;
+}

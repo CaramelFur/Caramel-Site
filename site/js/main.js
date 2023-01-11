@@ -1,5 +1,5 @@
-const flamethrower = require('flamethrower-router').default;
+const flamerouter = require('flamerouter').default;
 
-flamethrower({
+flamerouter({
   prefetch: 'hover',
 });

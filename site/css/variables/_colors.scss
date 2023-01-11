@@ -1,7 +1,7 @@
 @function clr($color) {
-  @return var(--color-#{$color});
+  @return var(--c-#{$color});
 }
 
 @function clr-rgb($color) {
-  @return var(--color-#{$color}-rgb);
+  @return var(--c-#{$color}-rgb);
 }

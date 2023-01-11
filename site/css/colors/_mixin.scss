@@ -10,11 +10,11 @@
 
   // set css variables
   @each $key, $value in $palette {
-    --color-#{$key}: #{$value};
+    --c-#{$key}: #{$value};
   }
 
   // create rgb variables for use with rgba()
   @each $key, $value in $palette {
-    --color-#{$key}-rgb: #{red($value)}, #{green($value)}, #{blue($value)};
+    --c-#{$key}-rgb: #{red($value)}, #{green($value)}, #{blue($value)};
   }
 }

@@ -30,6 +30,8 @@
 
 @use 'framework';
 
+@use 'extra';
+
 body {
   @include colorPalette(dark.$palette);
 }

@@ -9,21 +9,19 @@
     "deploy": "yarn build && node ./lib/deploy.js ./deploy.config.json"
   },
   "type": "commonjs",
-  "dependencies": {
-    "probe-image-size": "^7.2.3"
-  },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.23",
+    "@11ty/eleventy": "^2.0.0-canary.29",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "dom-serializer": "^2.0.0",
     "domhandler": "^5.0.3",
     "domutils": "^3.0.1",
     "easy-sftp-deploy": "^1.4.0",
-    "eleventy-sass": "^2.1.4",
-    "esbuild": "^0.16.13",
-    "flamethrower-router": "^0.0.0-meme.12",
+    "eleventy-sass": "^2.1.6",
+    "esbuild": "^0.16.16",
+    "flamerouter": "^0.1.0",
     "html-minifier": "^4.0.0",
     "htmlparser2": "^8.0.1",
-    "prismjs": "^1.29.0"
+    "prismjs": "^1.29.0",
+    "probe-image-size": "^7.2.3"
   }
 }
