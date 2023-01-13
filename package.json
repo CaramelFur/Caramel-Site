@@ -8,7 +8,7 @@
     "build": "eleventy",
     "deploy": "yarn build && node ./lib/deploy.js ./deploy.config.json"
   },
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-canary.29",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
@@ -23,5 +23,8 @@
     "htmlparser2": "^8.0.1",
     "prismjs": "^1.29.0",
     "probe-image-size": "^7.2.3"
+  },
+  "dependencies": {
+    "deasync-promise": "^1.0.1"
   }
 }
