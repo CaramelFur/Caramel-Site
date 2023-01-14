@@ -30,8 +30,9 @@ async function main() {
   const params = new URLSearchParams(window.location.search);
   // Get targetdocument from "t" queryparam
   const reqPath = params.get('t');
-  const pKey = params.get('k');
-  if (!reqPath || !pKey) {
+  // Get pKey from hash value
+  const passKey = window.location.hash.slice(1);
+  if (!reqPath || !passKey || passKey.length === 0) {
     console.error('No target document or key');
     return;
   }
@@ -40,35 +41,37 @@ async function main() {
     ? reqPath + 'index.enc'
     : reqPath + '/index.enc';
 
-  console.log(`Decrypting ${docPath}`);
-
-  // Strip query params from urlbar
+  // Strip query params from urlbar and strip hash
   window.history.replaceState({}, '', window.location.pathname);
+  window.location.hash = '';
 
   // download target document into arraybuffer
   const docDat = await fetch(docPath).then((res) => res.arrayBuffer());
 
   // Key is base64, first 32 bytes are key, last 16 bytes are iv
-  const fullKey = b64toU8(pKey.replace(/-/g, '+').replace(/_/g, '/'));
+  const fullKey = b64toU8(passKey.replace(/-/g, '+').replace(/_/g, '/'));
+
+  // read uint32 from first 4 bytes of document
+  const docDatLength = new DataView(docDat).getUint32(0, true);
 
   const decData = await decrypt(
-    docDat,
-    fullKey.slice(0, 32),
-    fullKey.slice(32, 48),
+    docDat.slice(20, 20 + docDatLength),
+    fullKey,
+    docDat.slice(4, 20),
   );
 
   // Set urlbar to target document and replace document with decrypted html
   window.history.replaceState({}, '', reqPath);
-  // clear full document
-  document.open();
-  // write decrypted html
-  document.write(decData);
-  // close document
-  document.close();
+
+  setTimeout(() => {
+    document.querySelector('html').innerHTML = decData;
+  }, 1);
 }
 
-main().catch((e) => {
-  console.error(e);
-  // Redirect to /
-  window.location = '/';
+document.addEventListener('DOMContentLoaded', () => {
+  main().catch((e) => {
+    console.error(e);
+    // Redirect to /
+    window.location = '/';
+  });
 });
