@@ -1,0 +1,3 @@
+[submodule "site/private"]
+    path = site/private
+    url = git@github.com:rubikscraft/Rubikscraft-Site-Private.git
