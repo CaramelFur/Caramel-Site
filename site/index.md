@@ -1,10 +1,10 @@
 ---
-title: "Rubikscraft"
-subtitle: "A Developer"
+title: "Caramel"
+subtitle: "A Developer and Furry Folf"
 notitle: true
 ---
 
-Hi there, I'm Rubikscraft. If you're visiting this page you've probably come to check out who I am and what I do.
+Hi there, I'm Caramel. If you're visiting this page you've probably come to check out who I am and what I do.
 
 In short, I'm a developer. Yes, thats a vague term, but there simply not a better one for the stuff I do. Basically anything that has to with computers, programming or electronics interests me. So I always find new interesting projects to never fully finish. And since I'm a huge advocate for FOSS, all the stuff I've done so far is published on either my [Github or Gitlab](/info#contact).
 
@@ -14,4 +14,4 @@ I also have 2 cats and a dog, and suprisingly they go very well together. Still,
 
 Since I prefer to keep my personal information online to a mininum, there is not much more to put here. Also not a suprise then that I dislike big tech companies such as Facebook and Google. Anyways, if you wish to talk for whatever reason, you can use [my contact info](/info#contact).
 
-![A black and white cat inside a a white bag](https://i.rubikscraft.nl/i/b30a30c1-ba8a-443e-8f8e-a9033405b79b.webp?width=700 "He really likes bags")
+![A black and white cat inside a a white bag](https://i.caramelfur.dev/i/b30a30c1-ba8a-443e-8f8e-a9033405b79b.webp?width=700 "He really likes bags")

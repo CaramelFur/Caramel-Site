@@ -1,12 +1,12 @@
 {
-  "name": "Rubikscraft",
-  "author": "Rubikscraft",
-  "url": "https://rubikscraft.nl/",
-  "description": "A Developer",
-  "source": "https://github.com/rubikscraft/Rubikscraft-Site",
+  "name": "Caramel",
+  "author": "Caramel",
+  "url": "https://caramelfur.dev/",
+  "description": "A Fullstack Developer and Furry",
+  "source": "https://github.com/rubikscraft/Caramel-Site",
 
   "social": {
-    "description": "A Developer",
+    "description": "A Fullstack Developer and Furry",
     "image": "/image/profile.png"
   }
 }

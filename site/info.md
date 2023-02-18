@@ -6,18 +6,18 @@ title: "Info"
 
 You can reach me via one of the following ways:
 
-- E-Mail: [contact@rubikscraft.nl](mailto:contact@rubikscraft.nl)
+- E-Mail: [contact@caramelfur.dev](mailto:contact@caramelfur.dev)
 - Telegram: [@CaramelFluff](https://t.me/CaramelFluff)
 - Twitter: [@CaramelFolf](https://twitter.com/CaramelFolf)
 - Mastodon: [@Caramel@furry.engineer](https://furry.engineer/@Caramel)
-- Discord: [rubikscraft#0621](https://discord.com/users/350013809311744001)
+- Discord: [Caramel#0621](https://discord.com/users/350013809311744001)
 - Matrix: [@rubikscraft:matrix.org](https://matrix.to/#/@rubikscraft:matrix.org)
 
 Other personal links:
 
-- GitLab: [gitlab.com/rubikscraft](https://gitlab.com/rubikscraft)
+- GitLab: [gitlab.com/CaramelFur](https://gitlab.com/CaramelFur)
 - GitHub: [github.com/rubikscraft](https://github.com/rubikscraft)
-- Steam: [steamcommunity.com/id/rubikscraft/](https://steamcommunity.com/id/rubikscraft/)
+- Steam: [steamcommunity.com/id/CaramelFur/](https://steamcommunity.com/id/CaramelFur/)
 
 ## Donate
 
