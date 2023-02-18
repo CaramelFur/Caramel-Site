@@ -84,6 +84,11 @@ img {
   height: auto;
 }
 
+img.avatar {
+  border-radius: 35%;
+  max-width: 15em;
+}
+
 // create animation that pulses the background color
 @keyframes pulse {
   0% {

@@ -53,6 +53,10 @@
         <a href='/info'>Info</a>
       </nav>
 
+      {{#if avatar}}
+      <img class="avatar" src='{{avatar}}' alt='{{site.name}}' />
+      {{/if}}
+
       <h1>{{title}}</h1>
       {{#if subtitle}}
       <h2>{{subtitle}}</h2>
