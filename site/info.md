@@ -7,6 +7,9 @@ title: "Info"
 You can reach me via one of the following ways:
 
 - E-Mail: [contact@rubikscraft.nl](mailto:contact@rubikscraft.nl)
+- Telegram: [@CaramelFluff](https://t.me/CaramelFluff)
+- Twitter: [@CaramelFolf](https://twitter.com/CaramelFolf)
+- Mastodon: [@Caramel@furry.engineer](https://furry.engineer/@Caramel)
 - Discord: [rubikscraft#0621](https://discord.com/users/350013809311744001)
 - Matrix: [@rubikscraft:matrix.org](https://matrix.to/#/@rubikscraft:matrix.org)
 
