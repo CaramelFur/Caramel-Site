@@ -11,7 +11,7 @@ I've been more busy with actual coding, doing that is just way more fun. So I mi
 This is the main project I've been working for like half a year now. It's a self hosted and open source clone of Imgur. The need for this arose whilst making this website actually. I wanted to just quickly host some images for it and could not find any good self hosted alternatives. So I decided to make my own.
 Right now it supports uploading and converting images to many formats. And I'm currently working on getting the image gallery working.
 
-If you wish to give it a try, you can find the source code on [Github](https://github.com/rubikscraft/Picsur).
+If you wish to give it a try, you can find the source code on [Github](https://github.com/CaramelFur/Picsur).
 
 ## Work
 

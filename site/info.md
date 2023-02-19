@@ -11,12 +11,12 @@ You can reach me via one of the following ways:
 - Twitter: [@CaramelFolf](https://twitter.com/CaramelFolf)
 - Mastodon: [@Caramel@furry.engineer](https://furry.engineer/@Caramel)
 - Discord: [Caramel#0621](https://discord.com/users/350013809311744001)
-- Matrix: [@rubikscraft:matrix.org](https://matrix.to/#/@rubikscraft:matrix.org)
+- Matrix: [@caramel:matrix.caramelfur.dev](https://matrix.to/#/@caramel:matrix.caramelfur.dev)
 
 Other personal links:
 
 - GitLab: [gitlab.com/CaramelFur](https://gitlab.com/CaramelFur)
-- GitHub: [github.com/rubikscraft](https://github.com/rubikscraft)
+- GitHub: [github.com/CaramelFur](https://github.com/CaramelFur)
 - Steam: [steamcommunity.com/id/CaramelFur/](https://steamcommunity.com/id/CaramelFur/)
 
 ## Donate
