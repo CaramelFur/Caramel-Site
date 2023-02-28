@@ -5,14 +5,18 @@ avatar: "https://i.caramelfur.dev/i/40d49ef1-26ea-4739-ad97-beaf498c8213.webp"
 notitle: true
 ---
 
-Hi there, I'm Caramel. If you're visiting this page you've probably come to check out who I am and what I do.
+Hey there! My name is Caramel, and I am a software engineer who is passionate about exploring the latest technologies and libraries. I am also currently studying Technical Computer Engineering, where I can further expand my knowledge in this field.
 
-In short, I'm a developer. Yes, thats a vague term, but there simply not a better one for the stuff I do. Basically anything that has to with computers, programming or electronics interests me. So I always find new interesting projects to never fully finish. And since I'm a huge advocate for FOSS, all the stuff I've done so far is published on either my [Github or Gitlab](/info#contact).
+### My Skills
 
-Most of what I know now, I've taught myself using the internet. For me its the fastest way learn things, since I can just pick and choose what I need to know at what time. But next to that, I am also working on my bachelors degree in Technical Computer Science at a University of Applied Sciences. Since the sad reality is that many companies still require a degree to work for them.
+As a fullstack engineer, I am proficient in various areas of software development, including web frontend, backend, devops, linux, and embedded programming. I am always excited to learn new things and try out new technologies. My top programming languages are Typescript, C/C++, Java/Kotlin, and C#. I am also experienced in working with Docker, which makes my development process more efficient. When it comes to embedded programming, I work mostly with ESP32's and Platformio. Additionally, I am a big advocate for opensource software, and I also write my own open source software. You can check out some of my works via my website's [info page](/info).
 
-I also have 2 cats and a dog, and suprisingly they go very well together. Still, the cats are assholes, but thats just cats. At the bottom of this page is a picture of one of them.
+### My Passion
 
-Since I prefer to keep my personal information online to a mininum, there is not much more to put here. Also not a suprise then that I dislike big tech companies such as Facebook and Google. Anyways, if you wish to talk for whatever reason, you can use [my contact info](/info#contact).
+I love working with Linux, especially RHEL, and enjoy experimenting with its various tools and features. In fact, most of my knowledge and skills are self-taught, which speaks volumes about my commitment and enthusiasm for software engineering. I believe that technology is constantly evolving, and I'm always ready to embrace new challenges and learn new skills.
+
+In conclusion, as a software engineer, I strive to deliver high-quality results by utilizing my skills and passion in software development. If you want to know more about me or have any questions, feel free to [drop me a message](/info)!
+
+### My cat
 
 ![A black and white cat inside a a white bag](https://i.caramelfur.dev/i/b30a30c1-ba8a-443e-8f8e-a9033405b79b.webp?width=700 "He really likes bags")
