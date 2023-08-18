@@ -11,7 +11,7 @@ You can reach me via one of the following ways:
 - Twitter: [@CaramelFolf](https://twitter.com/CaramelFolf)
 - Mastodon: [@Caramel@furry.engineer](https://furry.engineer/@Caramel)
 - Discord: [Caramel#0621](https://discord.com/users/350013809311744001)
-- Matrix: [@caramel:matrix.caramelfur.dev](https://matrix.to/#/@caramel:matrix.caramelfur.dev)
+- Matrix: [@Caramel:caramelfur.dev](https://matrix.to/#/@Caramel:caramelfur.dev)
 
 Other personal links:
 
