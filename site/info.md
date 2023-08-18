@@ -10,14 +10,16 @@ You can reach me via one of the following ways:
 - Telegram: [@CaramelFluff](https://t.me/CaramelFluff)
 - Twitter: [@CaramelFolf](https://twitter.com/CaramelFolf)
 - Mastodon: [@Caramel@furry.engineer](https://furry.engineer/@Caramel)
-- Discord: [Caramel#0621](https://discord.com/users/350013809311744001)
+- Discord: [@caramelfur](https://discord.com/users/350013809311744001)
 - Matrix: [@Caramel:caramelfur.dev](https://matrix.to/#/@Caramel:caramelfur.dev)
 
 Other personal links:
 
-- GitLab: [gitlab.com/CaramelFur](https://gitlab.com/CaramelFur)
 - GitHub: [github.com/CaramelFur](https://github.com/CaramelFur)
+- GitLab: [gitlab.com/CaramelFur](https://gitlab.com/CaramelFur)
 - Steam: [steamcommunity.com/id/CaramelFur/](https://steamcommunity.com/id/CaramelFur/)
+- Barq: [Caramel](https://barq.app/p/91kQ27s)
+- Spotify: [Caramel](https://open.spotify.com/user/31zxlxqzy3oosudiouyf4zgl75z4?si=L4p6ppClT-24c-OyZo1UzA)
 
 ## Donate
 
