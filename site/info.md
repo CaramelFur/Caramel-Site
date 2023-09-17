@@ -10,6 +10,7 @@ You can reach me via one of the following ways:
 - Telegram: [@CaramelFluff](https://t.me/CaramelFluff)
 - Twitter: [@CaramelFolf](https://twitter.com/CaramelFolf)
 - Mastodon: [@Caramel@furry.engineer](https://furry.engineer/@Caramel)
+- Bluesky: [@caramelfur.dev](https://bsky.app/profile/caramelfur.dev)
 - Discord: [@caramelfur](https://discord.com/users/350013809311744001)
 - Matrix: [@Caramel:caramelfur.dev](https://matrix.to/#/@Caramel:caramelfur.dev)
 
