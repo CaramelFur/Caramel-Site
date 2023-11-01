@@ -1,7 +1,7 @@
 ---
 title: "Caramel"
 subtitle: "A Developer and Furry Folf"
-avatar: "https://i.caramelfur.dev/i/40d49ef1-26ea-4739-ad97-beaf498c8213.webp"
+avatar: "/image/profile.png"
 notitle: true
 ---
 
