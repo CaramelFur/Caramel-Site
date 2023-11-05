@@ -20,6 +20,7 @@ Other personal links:
 - GitLab: [gitlab.com/CaramelFur](https://gitlab.com/CaramelFur)
 - Steam: [steamcommunity.com/id/CaramelFur/](https://steamcommunity.com/id/CaramelFur/)
 - Barq: [Caramel](https://barq.app/p/91kQ27s)
+- FurAffinity: [Caramel](https://www.furaffinity.net/user/caramelfur/)
 - Spotify: [Caramel](https://open.spotify.com/user/31zxlxqzy3oosudiouyf4zgl75z4?si=L4p6ppClT-24c-OyZo1UzA)
 
 ## Donate
