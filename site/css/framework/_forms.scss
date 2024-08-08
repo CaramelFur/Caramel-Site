@@ -13,13 +13,13 @@ form {
 }
 
 fieldset {
+  padding: 0;
+  margin: 0;
+
   legend {
     font-size: 150%;
     margin-bottom: bs(0.5);
   }
-
-  padding: 0;
-  margin: 0;
 }
 
 input,
