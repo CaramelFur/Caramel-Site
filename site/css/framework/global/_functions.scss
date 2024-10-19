@@ -1,4 +1,7 @@
 @use "variables" as *;
+@use "sass:map";
+@use "sass:list";
+@use "sass:math";
 
 ///
 /// Returns the font scale value at a given position in the list
@@ -9,7 +12,7 @@
 ///
 @function get-font-scale-value($position, $map: $shevy) {
   $settings: settings($map);
-  @return nth(map-get($settings, 'base-font-scale'), $position);
+  @return list.nth(map.get($settings, 'base-font-scale'), $position);
 }
 
 ///
@@ -20,7 +23,7 @@
 ///
 @function base-font-size($map: $shevy) {
   $settings: settings($map);
-  @return map-get($settings, 'base-font-size');
+  @return map.get($settings, 'base-font-size');
 }
 
 ///
@@ -38,7 +41,7 @@
 ///
 @function base-font-unit($map: $shevy) {
   $settings: settings($map);
-  @return unit(map-get($settings, 'base-font-size'));
+  @return math.unit(map.get($settings, 'base-font-size'));
 }
 
 ///
@@ -56,7 +59,7 @@
 ///
 @function base-line-height($map: $shevy) {
   $settings: settings($map);
-  @return map-get($settings, 'base-line-height');
+  @return map.get($settings, 'base-line-height');
 }
 
 ///
@@ -132,8 +135,8 @@
   $settings: settings($map);
   $base-font-size: base-font-size($settings);
   $base-line-height: base-line-height($settings);
-  $proximity-bool: map-get($settings, proximity);
-  $proximity-factor: map-get($settings, proximity-factor);
+  $proximity-bool: map.get($settings, proximity);
+  $proximity-factor: map.get($settings, proximity-factor);
   $base-spacing: $base-font-size * $base-line-height;
 
   @if $proximity-bool {
@@ -168,5 +171,5 @@
 /// @return {Map} Map of merged settings
 ///
 @function settings($map: $shevy) {
-  @return map-merge($shevy-defaults, $map);
+  @return map.merge($shevy-defaults, $map);
 }

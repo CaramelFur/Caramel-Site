@@ -1,6 +1,9 @@
 @use "variables" as *;
 @use "functions" as *;
 
+@use "sass:map";
+@use "sass:list";
+
 ///
 /// Output the headings (h1, h2...) with the calculated settings
 /// @access public
@@ -15,9 +18,9 @@
   $base-line-height: base-line-height($settings);
   $line-height-spacing: line-height-spacing(1, $settings);
   $base-spacing: base-spacing(1, $settings);
-  $font-scale-length: length(map-get($settings, 'base-font-scale'));
+  $font-scale-length: list.length(map.get($settings, 'base-font-scale'));
   $font-unit-ems-bool: if($base-font-unit == 'em', true, false);
-  $margin-bottom-bool: map-get($settings, 'margin-bottom');
+  $margin-bottom-bool: map.get($settings, 'margin-bottom');
 
   @for $i from 1 through $font-scale-length {
     $font-scale-value: get-font-scale-value($i, $settings);
@@ -95,7 +98,7 @@
   $base-line-height: base-line-height($settings);
   $base-spacing: base-spacing(1, $settings);
   $margin-bottom: 0;
-  $margin-bottom-bool: map-get($settings, 'margin-bottom');
+  $margin-bottom-bool: map.get($settings, 'margin-bottom');
   $font-unit-ems-bool: if($base-font-unit == 'em', true, false);;
 
   // Margin Bottom

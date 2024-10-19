@@ -1,10 +1,11 @@
 @use "sass:map";
+@use "sass:color";
 
 @mixin colorPalette($palette) {
   // append primary-darken and background-darken to palette
   $palette: map.merge($palette, (
-    "primary-darken": darken(map.get($palette, "primary"), 15),
-    "background-darken": darken(map.get($palette, "background"), 25),
+    "primary-darken": color.adjust(map.get($palette, "primary"), $lightness: -15%),
+    "background-darken": color.adjust(map.get($palette, "background"), $lightness: -25%),
   ));
 
 
@@ -15,6 +16,6 @@
 
   // create rgb variables for use with rgba()
   @each $key, $value in $palette {
-    --c-#{$key}-rgb: #{red($value)}, #{green($value)}, #{blue($value)};
+    --c-#{$key}-rgb: #{color.channel($value, "red", $space: rgb)}, #{color.channel($value, "green", $space: rgb)}, #{color.channel($value, "blue", $space: rgb)};
   }
 }
