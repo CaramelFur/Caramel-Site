@@ -5,3 +5,5 @@ deploy.config.json
 temp
 .env
 decryptions.txt
+
+.DS_Store
