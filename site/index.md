@@ -1,7 +1,7 @@
 ---
 title: "Caramel"
 subtitle: "A Developer and Furry Folf"
-avatar: "/image/profile.png"
+avatar: "/image/profile.webp"
 notitle: true
 ---
 

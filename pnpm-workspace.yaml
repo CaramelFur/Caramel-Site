@@ -1,0 +1,6 @@
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - cpu-features
+  - deasync
+  - esbuild
+  - ssh2

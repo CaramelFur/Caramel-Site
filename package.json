@@ -11,22 +11,22 @@
   "type": "module",
   "devDependencies": {
     "@11ty/eleventy": "2.0.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
     "dom-serializer": "^2.0.0",
     "domhandler": "^5.0.3",
-    "domutils": "^3.1.0",
+    "domutils": "^3.2.2",
     "easy-sftp-deploy": "^1.4.2",
     "eleventy-sass": "^2.2.6",
-    "esbuild": "^0.24.0",
+    "esbuild": "^0.25.5",
     "flamerouter": "^0.1.0",
     "gray-matter": "^4.0.3",
     "html-minifier": "^4.0.0",
-    "htmlparser2": "^9.1.0",
-    "prismjs": "^1.29.0",
+    "htmlparser2": "^10.0.0",
+    "prismjs": "^1.30.0",
     "probe-image-size": "^7.2.3"
   },
   "dependencies": {
     "deasync-promise": "^1.0.1",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.5.0"
   }
 }
