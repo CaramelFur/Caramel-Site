@@ -1,0 +1,3830 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+ </head>
+ <body>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <b>
+    Product Overview
+   </b>
+  </h3>
+  <p block-type="Text">
+   The Qorvo® DWM3000 is a fully integrated Ultra-Wideband  (UWB) transceiver module based on the Qorvo® DW3110 IC. It integrates antenna, all RF circuitry, power management and  clock circuitry in one module simplifying integration. It can be  used in 2-way ranging or TDoA location systems to locate assets  to a precision of 10 cm and supports data rates of up to  6.8 Mbps.
+  </p>
+  <p block-type="Text">
+   The DWM3000 is designed to be compliant to the FiRa™ PHY  and MAC specifications enabling interoperability with other  FiRa™ compliant devices.
+  </p>
+  <h2>
+   <b>
+    Functional Block Diagram
+   </b>
+  </h2>
+  <p>
+   <img src="_page_0_Figure_7.jpeg"/>
+  </p>
+  <p>
+   <i>
+    Top View
+   </i>
+  </p>
+  <p>
+   <img src="_page_0_Picture_9.jpeg"/>
+  </p>
+  <p block-type="Text">
+   <i>
+    24 Pin 23 x 13 mm side castellated package
+   </i>
+  </p>
+  <h2>
+   <b>
+    Key Features
+   </b>
+  </h2>
+  <p block-type="ListGroup">
+   <ul>
+    <li block-type="ListItem">
+     IEEE 802.15.4-2015 and IEEE 802.15.4z BPRF compliant
+    </li>
+    <li block-type="ListItem">
+     Fully aligned with FiRa™ PHY, MAC and certification  development
+    </li>
+    <li block-type="ListItem">
+     Supports UWB Channels 5 (6.5 GHz) and 9 (8 GHz)
+    </li>
+    <li block-type="ListItem">
+     Programmable transmitter output power
+    </li>
+    <li block-type="ListItem">
+     Fully coherent receiver for maximum range and accuracy
+    </li>
+    <li block-type="ListItem">
+     Designed to comply with FCC &amp; ETSI UWB spectral masks
+    </li>
+    <li block-type="ListItem">
+     Supply voltage VDD3V3: 2.5 V  3.6 V
+     <ul>
+      <li block-type="ListItem" class="list-indent-1">
+       VDD1: 1.62 V  3.6 V
+      </li>
+     </ul>
+    </li>
+    <li block-type="ListItem">
+     Low power consumption
+    </li>
+    <li block-type="ListItem">
+     Data rates of 850 kbps, 6.8 Mbps
+    </li>
+    <li block-type="ListItem">
+     Maximum packet length of 1023 bytes for high data  throughput applications
+    </li>
+    <li block-type="ListItem">
+     Integrated MAC support features
+    </li>
+    <li block-type="ListItem">
+     SPI interface to host processor
+    </li>
+    <li block-type="ListItem">
+     Pin and pitch compatible with the DWM1000
+    </li>
+   </ul>
+  </p>
+  <h3>
+   <b>
+    Applications
+   </b>
+  </h3>
+  <p block-type="ListGroup">
+   <ul>
+    <li block-type="ListItem">
+     Precision real time location systems (RTLS) using two-way  ranging or TDoA schemes in a variety of markets.
+    </li>
+    <li block-type="ListItem">
+     Location aware wireless sensor networks (WSNs)
+    </li>
+   </ul>
+  </p>
+  <h2>
+   <b>
+    Ordering Information
+   </b>
+  </h2>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      PART NUMBER
+     </th>
+     <th>
+      DESCRIPTION
+     </th>
+    </tr>
+    <tr>
+     <td>
+      DWM3000SB
+     </td>
+     <td>
+      5 pcs bag
+     </td>
+    </tr>
+    <tr>
+     <th>
+      DWM3000SQ
+     </th>
+     <th>
+      25 pcs bag
+     </th>
+    </tr>
+    <tr>
+     <th>
+      DWM3000SR
+     </th>
+     <th>
+      100 pcs on a 7'' reel
+     </th>
+    </tr>
+    <tr>
+     <td>
+      DWM3000TR13
+     </td>
+     <td>
+      500 pcs on a 13'' reel
+     </td>
+    </tr>
+    <tr>
+     <td>
+      DWM3000EVB
+     </td>
+     <td>
+      Evaluation board
+     </td>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+     </th>
+    </tr>
+   </tbody>
+  </table>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <b>
+    Table of Contents
+   </b>
+  </h3>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      1
+     </th>
+     <th>
+      Overview 3
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.1
+      <br/>
+      DWM3000 Functional Description  3
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.2
+      <br/>
+      DWM3000 Power Up  3
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.3
+      <br/>
+      SPI Host Interface 5
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.3.1
+      <br/>
+      SPI Timing Parameters 5
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.3.2
+      <br/>
+      SPI Operating Modes 6
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.3.3
+      <br/>
+      SPI Transaction Formatting 7
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.4
+      <br/>
+      General Purpose Input Output (GPIO) 8
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.5
+      <br/>
+      Always-On (AON) Memory  8
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.6
+      <br/>
+      One-Time Programmable (OTP) Memory  8
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.7
+      <br/>
+      Interrupts and Device Status  8
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      1.8
+      <br/>
+      MAC 8
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      2
+     </th>
+     <th>
+      DWM3000 Calibration 9
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      2.1
+      <br/>
+      Crystal Oscillator Trim 9
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      2.2
+      <br/>
+      Transmitter Calibration 9
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      2.3
+      <br/>
+      Antenna Delay Calibration 9
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      3
+     </th>
+     <th>
+      DWM3000 Pin Connections10
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      3.1
+      <br/>
+      Pin Numbering10
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      3.2
+      <br/>
+      Pin Descriptions11
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      4
+     </th>
+     <th>
+      Electrical Specifications13
+     </th>
+     <th>
+     </th>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+     </th>
+     <th>
+     </th>
+     <th>
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      4.1
+      <br/>
+      4.2
+     </th>
+     <th>
+      Nominal Operating Conditions13
+      <br/>
+      DC Characteristics13
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      4.3
+     </th>
+     <th>
+      Receiver AC Characteristics14
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      4.4
+     </th>
+     <th>
+      Reference Clock AC Characteristics14
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+     </th>
+     <th>
+      4.4.1
+      <br/>
+      Reference Frequency14
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      4.5
+     </th>
+     <th>
+      Transmitter AC Characteristics14
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      4.6
+     </th>
+     <th>
+      Absolute Maximum Ratings15
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      5
+     </th>
+     <th>
+     </th>
+     <th>
+      Antenna Performance16
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      6
+     </th>
+     <th>
+     </th>
+     <th>
+      Application Information19
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      6.1
+     </th>
+     <th>
+      Application Board Layout Guidelines 19
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      6.2
+     </th>
+     <th>
+      Application Circuit Diagram 20
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      6.3
+     </th>
+     <th>
+      GPIO and SPI I/O Internal Pull Up / Down 20
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      7
+     </th>
+     <th>
+     </th>
+     <th>
+      Package Information 21
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      7.1
+     </th>
+     <th>
+      Module Drawings 21
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      7.2
+     </th>
+     <th>
+      Module Land Pattern22
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      7.3
+     </th>
+     <th>
+      Module Marking Information22
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      7.4
+     </th>
+     <th>
+      Module Solder Profile23
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+      7.5
+     </th>
+     <th>
+      Tape and Reel Information24
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      8
+     </th>
+     <th>
+     </th>
+     <th>
+      Glossary 25
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      9
+     </th>
+     <th>
+     </th>
+     <th>
+      Revision History 26
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      10
+     </th>
+     <th>
+     </th>
+     <th>
+      Further Information 26
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+     </th>
+     <th>
+     </th>
+     <th>
+     </th>
+    </tr>
+   </tbody>
+  </table>
+  <h3>
+   <b>
+    List of Figures
+   </b>
+  </h3>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Figure 1: Timing diagram for cold start POR4
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Figure 2: Timing diagram for warm start 4
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Figure 3: SPI Timing Diagram5
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Figure 4: SPI Detailed Timing Diagram5
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Figure 5: DW3000 SPIPHA=0 Transfer Protocol 6
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Figure 6: DW3000 SPIPHA=1 Transfer Protocol 7
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Figure 7: SPI Command Formatting 7
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Figure 8: DWM3000 Pin Diagram 10
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Figure 9: Carrier Board Dimensions and Radiation
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Pattern Planes 16
+     </th>
+     <th>
+     </th>
+    </tr>
+   </tbody>
+  </table>
+  <h4>
+   <b>
+    <a href="#page-18-2">
+     Figure 10: Application Board Keep-Out Areas
+    </a>
+   </b>
+   ...........19
+   <b>
+    <a href="#page-19-2">
+     Figure 11: Example DWM3000 Application Circuit
+    </a>
+   </b>
+   .....20
+   <b>
+    <a href="#page-19-3">
+     Figure 12: SPI and GPIO Pull Up / Down
+    </a>
+   </b>
+   ....................20
+   <b>
+    <a href="#page-20-2">
+     Figure 13: Module Package Size (mm)
+    </a>
+   </b>
+   .......................21
+   <b>
+    <a href="#page-21-2">
+     Figure 14: Module Land Pattern (units: mm)
+    </a>
+   </b>
+   ..............22
+   <b>
+    <a href="#page-21-3">
+     Figure 15: Module Marking Information
+    </a>
+   </b>
+   ......................22
+   <b>
+    <a href="#page-22-1">
+     Figure 16: DWM3000 Module Solder Profile
+    </a>
+   </b>
+   ...............23
+   <b>
+    <a href="#page-23-1">
+     Figure 17: Module Carrier Dimension (mm)
+    </a>
+   </b>
+   ................24
+   <b>
+    <a href="#page-23-2">
+     Figure 18: Module Tape Carrier Dimension (mm)
+    </a>
+   </b>
+   .......24
+  </h4>
+  <h3>
+   <b>
+    List of Tables
+   </b>
+  </h3>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Table 1: SPI Timing Parameters 6
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Table 2: DWM3000 Pin Functions 11
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Table 3: Explanation of Abbreviations 12
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Table 4: DWM3000 Operating Conditions 13
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Table 5: DWM3000 DC Characteristics 13
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Table 6: DWM3000 Receiver AC Characteristics 14
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Table 7: Reference Clock AC Characteristics14
+     </td>
+     <td>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <table>
+   <tbody>
+    <tr>
+     <th colspan="2">
+      Table 8: DWM3000 Transmitter AC Characteristics 14
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Table 9: DWM3000 Absolute Maximum Ratings 15
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Table 10 Antenna Radiation Patterns - Channel 5 17
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Table 11 Antenna Radiation Patterns - Channel 9 18
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Table 12: Glossary of Terms 25
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-2-0">
+   </span>
+   <b>
+    1 Overview
+   </b>
+  </h3>
+  <p block-type="Text">
+   The DWM3000 module is an IEEE 802.15.4-2011 and IEEE 802.15.4z (BPRF mode) UWB implementation. RF components, Qorvo DW3110 UWB transceiver, and other components reside on-module. DWM3000 enables cost effective and reduced complexity  integration of UWB communications and ranging features, greatly accelerating design implementation.
+  </p>
+  <h3>
+   <span id="page-2-1">
+   </span>
+   <b>
+    1.1 DWM3000 Functional Description
+   </b>
+  </h3>
+  <p block-type="Text">
+   The DW3110 on-board the DWM3000 is a fully integrated low-power, single chip CMOS RF transceiver IC. The DWM3000 module  requires no RF design as the antenna and associated analog and RF components are on the module.
+  </p>
+  <p block-type="Text">
+   The module contains an on-board 38.4 MHz reference crystal. The crystal has been trimmed in production to reduce the initial  frequency error to approximately 2 ppm, using the DW3110 IC's internal on-chip crystal trimming circuit, see section 2.1.
+  </p>
+  <p block-type="Text">
+   Always-On (AON) memory can be used to retain DWM3000 configuration data during the lowest power operational states when the on-chip  voltage regulators are disabled. This data is uploaded and downloaded automatically. Use of DWM3000 AON memory is configurable.
+  </p>
+  <p block-type="Text">
+   The on-chip voltage and temperature monitors allow the host to read the voltage on the VDD1 pin and the internal die temperature  information from the DW3110.
+  </p>
+  <p block-type="Text">
+   See the DW3000 datasheet for more detailed information on device functionality, electrical specifications, and typical performance.
+  </p>
+  <h4>
+   <span id="page-2-2">
+   </span>
+   <b>
+    1.2 DWM3000 Power Up
+   </b>
+  </h4>
+  <p block-type="Text">
+   DWM3000 is designed such that it can be powered in a number of different configurations depending on the application. These options  are described below
+   <a href="#page-3-0">
+    . Figure 1
+   </a>
+   shows the power up sequence when external power sources are applied. The power supply design  should ensure that VDD2a/b and VDD3 are stable less than 10 ms after VDD1 (3.3 V) comes up, otherwise a device reset is required.
+  </p>
+  <p block-type="Text">
+   When the external power source is applied to the DWM3000 for the first time (cold power up), the internal Power On Reset (POR)  circuit compares the externally applied supply voltage (VDD1) to an internal power-on threshold (approximately 1.5 V), and once this  threshold is passed, the AON block is released from reset and the external device enable pin EXTON is asserted.
+  </p>
+  <p block-type="Text">
+   Then the VDD2a/b and VDD3 supplies are monitored and once they are above the required voltage as specified in the datasheet (2.2 V  and 1.4 V respectively), the fast RC oscillator (FAST_RC) and crystal (XTAL Oscillator) will come on within 500 µs and 1 ms respectively.
+  </p>
+  <p block-type="Text">
+   The DWM3000 digital core will be held in reset until the crystal oscillator is stable. Once the digital reset is de-asserted the digital core  wakes up and enters the INIT_RC state, (see
+   <a href="#page-3-0">
+    Figure 1
+   </a>
+   an
+   <a href="#page-3-1">
+    d Figure
+   </a>
+   2). Then once the configurations stored in AON and OTP have been  restored (into the configuration registers) the device will enter IDLE_RC. Then the host can set the AINIT2IDLE configuration bit in  SEQ_CTRL and the IC will enable the CLKPLL and wait for it to lock before entering the IDLE_PLL state.
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <p>
+   <img src="_page_3_Figure_2.jpeg"/>
+  </p>
+  <p>
+   <img src="_page_3_Figure_3.jpeg"/>
+  </p>
+  <p>
+   <span id="page-3-0">
+   </span>
+   <img src="_page_3_Figure_4.jpeg"/>
+  </p>
+  <p>
+   <span id="page-3-1">
+   </span>
+   <img src="_page_3_Figure_5.jpeg"/>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h4>
+   <span id="page-4-0">
+   </span>
+   <b>
+    1.3 SPI Host Interface
+   </b>
+  </h4>
+  <p block-type="Text">
+   The host interface to DWM3000 is a 4-wire SPI-compatible slave. The assertion of SPICSn low by the SPI master indicates the  beginning of a transaction.
+  </p>
+  <p block-type="Text">
+   The SPI interface is used to read and write registers in the DW3110 device. All data and address transfers on the SPI are most  significant bit first. All address bytes are transmitted with MSB first, and all data is transmitted commencing with lowest addressed byte.
+  </p>
+  <p block-type="ListGroup">
+   <ul>
+    <li block-type="ListItem">
+     Assertion low of SPICSn initializes transaction.
+    </li>
+    <li block-type="ListItem">
+     De-assertion high of SPICSn ends the SPI transaction.
+    </li>
+    <li block-type="ListItem">
+     The device supports direct and per-byte sub-addressing access to the full register space.
+    </li>
+    <li block-type="ListItem">
+     Efficient block data reading / writing is allowed. Continuous, long transactions can be carried out while the addressed location  is auto incremented on the DW3110 side.
+    </li>
+   </ul>
+  </p>
+  <p block-type="Text">
+   The SPIMISO I/O is required to go open-drain when SPICSn is de-asserted, to allow interoperation with other slaves on the SPI bus. SPI  daisy chaining is not supported. This is the mode where the MISO, MOSI lines are passed through a device when it is not chip selected.
+  </p>
+  <h4>
+   <span id="page-4-1">
+   </span>
+   1.3.1 SPI Timing Parameters
+  </h4>
+  <p block-type="Text">
+   The SPI slave complies with the Motorola SPI protocol within the constraints of the timing parameters listed in
+   <a href="#page-5-2">
+    Table 1
+   </a>
+   and illustrated in
+   <a href="#page-4-2">
+    Figure 3
+   </a>
+   and
+   <a href="#page-4-3">
+    Figure 4.
+   </a>
+  </p>
+  <p>
+   <span id="page-4-2">
+   </span>
+   <img src="_page_4_Figure_12.jpeg"/>
+  </p>
+  <h4>
+   <b>
+    Figure 3: SPI Timing Diagram
+   </b>
+  </h4>
+  <p>
+   <span id="page-4-3">
+   </span>
+   <img src="_page_4_Figure_14.jpeg"/>
+  </p>
+  <p>
+   <b>
+    Figure 4: SPI Detailed Timing Diagram
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h4>
+   <b>
+    Table 1: SPI Timing Parameters
+   </b>
+  </h4>
+  <span id="page-5-2">
+  </span>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Parameter
+     </th>
+     <th>
+      Min.
+     </th>
+     <th>
+      Typ.
+     </th>
+     <th>
+      Max.
+     </th>
+     <th>
+      Unit
+     </th>
+     <th>
+      Description
+     </th>
+    </tr>
+    <tr>
+     <td>
+      t1
+     </td>
+     <td>
+      3
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      ns
+     </td>
+     <td>
+      SPI select asserted low to valid slave output data.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      t2
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      3
+     </td>
+     <td>
+      ns
+     </td>
+     <td>
+      SPICLK low to valid slave output data.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      t3
+     </td>
+     <td>
+      14
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      ns
+     </td>
+     <td>
+      Master data setup time.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      t4
+     </td>
+     <td>
+      2
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      ns
+     </td>
+     <td>
+      Master data hold time.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      t5
+     </td>
+     <td>
+      27
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      ns
+     </td>
+     <td>
+      LSB last byte to MSB next byte.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      t6
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      3
+     </td>
+     <td>
+      ns
+     </td>
+     <td>
+      SPICSn de-asserted high to MISO tristate.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      t7
+     </td>
+     <td>
+      14
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      ns
+     </td>
+     <td>
+      Start time; time from select asserted to first SPICLK.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      t8
+     </td>
+     <td>
+      24
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      ns
+     </td>
+     <td>
+      Last SPICLK to SPICSn de-asserted.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      t9
+     </td>
+     <td>
+      24
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      ns
+     </td>
+     <td>
+      Idle time between consecutive accesses.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      t10
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      38
+     </td>
+     <td>
+      MHz
+     </td>
+     <td>
+      SPI CLK Fmax @1.8 V VDD1, 25C, SPI mode 0.
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h4>
+   <span id="page-5-0">
+   </span>
+   1.3.2 SPI Operating Modes
+  </h4>
+  <p block-type="Text">
+   Both clock polarities (SPIPOL=0/1) and phases (SPIPHA=0/1) are supported, as defined in the Motorola SPI protocol. The DW3110 transfer protocols for each SPIPOL and SPIPHA setting are given in
+   <a href="#page-5-1">
+    Figure 5
+   </a>
+   and
+   <a href="#page-6-1">
+    Figure 6.
+   </a>
+  </p>
+  <p>
+   <img src="_page_5_Figure_6.jpeg"/>
+  </p>
+  <p>
+   <span id="page-5-1">
+   </span>
+   <img src="_page_5_Figure_7.jpeg"/>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <p>
+   <img src="_page_6_Figure_2.jpeg"/>
+  </p>
+  <p>
+   <b>
+    Figure 6: DW3000 SPIPHA=1 Transfer Protocol
+   </b>
+  </p>
+  <h4>
+   <span id="page-6-1">
+   </span>
+   <span id="page-6-0">
+   </span>
+   1.3.3 SPI Transaction Formatting
+  </h4>
+  <p block-type="Text">
+   The SPI command structure allows for 4 different types of SPI command:
+  </p>
+  <p block-type="ListGroup">
+   <ul>
+    <li block-type="ListItem">
+     1. Fast, single byte commands. Up to 32 unique commands such as "TX now", "TX/RX Off".
+    </li>
+    <li block-type="ListItem">
+     2. Fast addressed mode. Allowing for read and write addressing to 32 master addresses. This command structure is padded by a  trailing bit to allow the SPI address decoder time to fetch any read data. The length of the read is determined by the length of  the SPI transaction.
+    </li>
+    <li block-type="ListItem">
+     3. Full addressed mode. Allowing for read and write addressing to 32 master addresses and up to 128-byte offset addressing.  This command structure is padded by a trailing bit to allow the SPI address decoder time to fetch any read data. The length of  the read or write is determined by the length of the SPI transaction.
+    </li>
+    <li block-type="ListItem">
+     4. Masked write transaction. These are intended to simplify read-modify-write operations by allowing the host to write to an  address and apply a set, clear or toggle mask to 1, 2, or 4 bytes. The SPI command decoder then carries out the required  read-modify-write instructions internally.
+    </li>
+   </ul>
+  </p>
+  <p>
+   <img src="_page_6_Figure_10.jpeg"/>
+  </p>
+  <p>
+   <span id="page-6-2">
+   </span>
+   <b>
+    Figure 7: SPI Command Formatting
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-7-0">
+   </span>
+   <b>
+    1.4 General Purpose Input Output (GPIO)
+   </b>
+  </h3>
+  <p block-type="Text">
+   The DWM3000 provides 8 configurable pins.
+  </p>
+  <p block-type="Text">
+   On reset, all GPIO pins default to input. GPIO inputs, when appropriately configured, are capable of generating interrupts to the host  processor via the IRQ signal.
+  </p>
+  <p block-type="Text">
+   See DW3000 datasheet and DW3000 user manual for full details of the configuration and use of the GPIO lines.
+  </p>
+  <h4>
+   <span id="page-7-1">
+   </span>
+   <b>
+    1.5 Always-On (AON) Memory
+   </b>
+  </h4>
+  <p block-type="Text">
+   Configuration retention in lowest power states is enabled in DWM3000 by provision of an Always-On (AON) memory array with a  separate power supply, VDD1. The DWM3000 may be configured to upload its configuration to AON before entering a low-power state  and to download the configuration when waking up from the low–power state.
+  </p>
+  <h4>
+   <span id="page-7-2">
+   </span>
+   <b>
+    1.6 One-Time Programmable (OTP) Memory
+   </b>
+  </h4>
+  <p block-type="Text">
+   The DWM3000 contains a 128x32-bit user programmable OTP memory that is used to store per chip calibration information.
+  </p>
+  <h4>
+   <span id="page-7-3">
+   </span>
+   <b>
+    1.7 Interrupts and Device Status
+   </b>
+  </h4>
+  <p block-type="Text">
+   DWM3000 has a number of interrupt events that can be configured to drive the IRQ output pin. The default IRQ pin polarity is active  high. A number of status registers are provided in the system to monitor and report data of interest. See DW3000 user manual for a full  description of system interrupts and their configuration and of status registers.
+  </p>
+  <h4>
+   <span id="page-7-4">
+   </span>
+   <b>
+    1.8 MAC
+   </b>
+  </h4>
+  <p block-type="Text">
+   A number of MAC features are implemented including CRC generation, CRC checking and receive frame filtering. See the DW3000  datasheet and DW3000 user manual for full details.
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-8-0">
+   </span>
+   <b>
+    2 DWM3000 Calibration
+   </b>
+  </h3>
+  <p block-type="Text">
+   Depending on the end-use applications and the system design, DWM3000 settings may need to be tuned. To help with this tuning a  number of built-in functions such as continuous wave TX and continuous frame transmission can be enabled. See the DW3000 user  manual for further details.
+  </p>
+  <p block-type="Text">
+   The DWM3000 has crystal oscillator trimmed during module production but no transmit power or antenna delay calibration.
+  </p>
+  <h4>
+   <span id="page-8-1">
+   </span>
+   <b>
+    2.1 Crystal Oscillator Trim
+   </b>
+  </h4>
+  <p block-type="Text">
+   DWM3000 modules are calibrated at production at room temperature to minimise initial frequency error to reduce carrier frequency  offset between modules and thus improve receiver sensitivity. The calibration carried out at module production will trim the initial  frequency offset to less than 2 ppm, typically.
+  </p>
+  <h4>
+   <span id="page-8-2">
+   </span>
+   <b>
+    2.2 Transmitter Calibration
+   </b>
+  </h4>
+  <p block-type="Text">
+   In order to maximize range, DWM3000 transmit power spectral density (PSD) should be set to the maximum allowable for the  geographic region in which it will be used. For most regions this is -41.3 dBm/ MHz.
+  </p>
+  <p block-type="Text">
+   As the module contains an integrated antenna, the transmit power can only be measured over the air. The Effective Isotropic Radiated  Power (EIRP) must be measured, and the power level adjusted to ensure compliance with applicable regulations.
+  </p>
+  <p block-type="Text">
+   The DWM3000 provides the facility to adjust the transmit power in coarse and fine steps; 2 dB and 0.5 dB nominally. It also provides  the ability to adjust the spectral bandwidth. These adjustments can be used to maximize transmit power whilst meeting regulatory  spectral mask.
+  </p>
+  <p block-type="Text">
+   If required, transmit calibration should be carried out on a per DWM3000 module basis, see DW3000 user manual for full details.
+  </p>
+  <h4>
+   <span id="page-8-3">
+   </span>
+   <b>
+    2.3 Antenna Delay Calibration
+   </b>
+  </h4>
+  <p block-type="Text">
+   In order to measure range accurately, precise calculation of timestamps is required. To do this the antenna delay must be known. The  DWM3000 allows this delay to be calibrated and provides the facility to compensate for delays introduced by PCB, external  components, antenna and internal DWM3000 delays.
+  </p>
+  <p block-type="Text">
+   To calibrate the antenna delay, range is measured at a known distance using two DWM3000 systems. Antenna delay is adjusted until  the known distance and reported range agree. The antenna delay can be stored in OTP memory.
+  </p>
+  <p block-type="Text">
+   Antenna delay calibration must be carried out as a once-off measurement for each DWM3000 design implementation. If required, for greater  accuracy, antenna delay calibration should be carried out on a per DWM3000 module basis, see DW3000 user manual for full details.
+  </p>
+  <h2>
+   <span id="page-9-0">
+   </span>
+   <b>
+    3 DWM3000 Pin Connections
+   </b>
+  </h2>
+  <h3>
+   <span id="page-9-1">
+   </span>
+   <b>
+    3.1 Pin Numbering
+   </b>
+  </h3>
+  <p block-type="Text">
+   DWM3000 module pin assignments are as follows (viewed from top):
+  </p>
+  <p>
+   <img src="_page_9_Figure_5.jpeg"/>
+  </p>
+  <p>
+   <span id="page-9-2">
+   </span>
+   <b>
+    Figure 8: DWM3000 Pin Diagram
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-10-0">
+   </span>
+   <b>
+    3.2 Pin Descriptions
+   </b>
+  </h3>
+  <h4>
+   <b>
+    Table 2: DWM3000 Pin Functions
+   </b>
+  </h4>
+  <span id="page-10-1">
+  </span>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Signal
+      <br/>
+      Name
+     </th>
+     <th>
+      Pin
+     </th>
+     <th>
+      I/O
+      <br/>
+      (Default)
+     </th>
+     <th>
+      Description
+     </th>
+    </tr>
+    <tr>
+     <th colspan="8">
+      Digital Interface
+     </th>
+    </tr>
+    <tr>
+     <td>
+      SPICLK
+     </td>
+     <td>
+      20
+     </td>
+     <td>
+      DI
+     </td>
+     <td>
+      SPI clock
+     </td>
+    </tr>
+    <tr>
+     <td>
+      SPIMISO
+     </td>
+     <td>
+      19
+     </td>
+     <td>
+      DO
+      <br/>
+      (O–L)
+     </td>
+     <td>
+      SPI data output.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      SPIMOSI
+     </td>
+     <td>
+      18
+     </td>
+     <td>
+      DI
+     </td>
+     <td>
+      SPI data input.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      SPICSn
+     </td>
+     <td>
+      17
+     </td>
+     <td>
+      DI
+     </td>
+     <td>
+      SPI chip select. This is an active low enable input. The high-to-low transition on
+      <br/>
+      SPICSn signals the start of a new SPI transaction. SPICSn can also act as a
+      <br/>
+      wake-up signal to bring DW3110 out of either SLEEP or DEEPSLEEP states.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      WAKEUP
+     </td>
+     <td>
+      2
+     </td>
+     <td>
+      DIO
+     </td>
+     <td>
+      When asserted into its active high state, the WAKEUP pin brings the DW3110 out
+      <br/>
+      of SLEEP or DEEPSLEEP states into operational mode.
+      <br/>
+      If unused, this pin can be tied to ground.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      EXTON
+     </td>
+     <td>
+      1
+     </td>
+     <td>
+      DO
+      <br/>
+      (O-L)
+     </td>
+     <td>
+      External device enable. Asserted during wake-up process and held active until
+      <br/>
+      device enters sleep mode. Can be used to control external DC-DC converters or
+      <br/>
+      other circuits that are not required when the device is in sleep mode so as to
+      <br/>
+      minimize power consumption.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GPIO8 / IRQ
+     </td>
+     <td>
+      22
+     </td>
+     <td>
+      DIO
+      <br/>
+      (O-L)
+     </td>
+     <td>
+      Interrupt Request output from the DWM3000 to the host processor. By default,
+      <br/>
+      IRQ is an active-high output but may be configured to be active low if required.
+      <br/>
+      For correct operation in SLEEP and DEEPSLEEP modes it should be configured
+      <br/>
+      for active high operation. This pin will float in SLEEP and DEEPSLEEP states and
+      <br/>
+      may cause spurious interrupts unless pulled low externally (100 kΩ
+      <br/>
+      recommended).
+      <br/>
+      When the IRQ functionality is not being used the pin may be reconfigured as a
+      <br/>
+      general purpose I/O line, GPIO8.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GPIO7 /
+      <br/>
+      SYNC
+     </td>
+     <td>
+      4
+     </td>
+     <td>
+      DIO
+      <br/>
+      (I)
+     </td>
+     <td>
+      Defaults to operate as a SYNC input. This pin may be reconfigured as a general
+      <br/>
+      purpose I/O pin under software control.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GPIO6 /
+      <br/>
+      EXTRXE /
+      <br/>
+      SPIPHA
+     </td>
+     <td>
+      9
+     </td>
+     <td>
+      DIO
+      <br/>
+      (I)
+     </td>
+     <td>
+      General purpose I/O pin.
+      <br/>
+      On power-up it acts as the SPIPHA (SPI phase selection) pin for configuring the
+      <br/>
+      SPI mode of operation.
+      <br/>
+      After power-up, the pin will default to a General Purpose I/O pin.
+      <br/>
+      On engineering samples E1.0 GPIO6 is on pin 10.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GPIO5 /
+      <br/>
+      EXTTXE /
+      <br/>
+      SPIPOL
+     </td>
+     <td>
+      10
+     </td>
+     <td>
+      DIO
+      <br/>
+      (I)
+     </td>
+     <td>
+      General purpose I/O pin.
+      <br/>
+      On power-up it acts as the SPIPOL (SPI polarity selection) pin for configuring the
+      <br/>
+      SPI operation mode.
+      <br/>
+      After power-up, the pin will default to a General Purpose I/O pin.
+      <br/>
+      On engineering samples E1.0 GPIO5 is on pin 9.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GPIO4
+     </td>
+     <td>
+      11
+     </td>
+     <td>
+      DIO
+      <br/>
+      (I)
+     </td>
+     <td>
+      General purpose I/O pin.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GPIO3 /
+      <br/>
+      TXLED
+     </td>
+     <td>
+      12
+     </td>
+     <td>
+      DIO
+      <br/>
+      (I)
+     </td>
+     <td>
+      General purpose I/O pin.
+      <br/>
+      It may be configured for use as a TXLED driving pin that can be used to light a
+      <br/>
+      LED following a transmission.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GPIO2 /
+      <br/>
+      RXLED
+     </td>
+     <td>
+      13
+     </td>
+     <td>
+      DIO
+      <br/>
+      (I)
+     </td>
+     <td colspan="4">
+      General purpose I/O pin.
+      <br/>
+      It may be configured for use as a RXLED driving pin that can be used to light a
+      <br/>
+      LED during receive mode.
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Signal
+      <br/>
+      Name
+     </th>
+     <th colspan="2">
+      I/O
+      <br/>
+      Pin
+      <br/>
+      (Default)
+     </th>
+     <th colspan="5">
+      Description
+     </th>
+    </tr>
+    <tr>
+     <td>
+      GPIO1 /
+      <br/>
+      SFDLED
+     </td>
+     <td>
+      14
+     </td>
+     <td>
+      DIO
+      <br/>
+      (I)
+     </td>
+     <td>
+      General purpose I/O pin.
+      <br/>
+      It may be configured for use as a SFDLED driving pin that can be used to light a
+      <br/>
+      LED when SFD (Start Frame Delimiter) is found by the receiver.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GPIO0 /
+      <br/>
+      RXOKLED
+     </td>
+     <td>
+      15
+     </td>
+     <td>
+      DIO
+      <br/>
+      (I)
+     </td>
+     <td>
+      General purpose I/O pin.
+      <br/>
+      It may be configured for use as a RXOKLED driving pin that can be used to light a
+      <br/>
+      LED on reception of a good frame.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      RSTn
+     </td>
+     <td>
+      3
+     </td>
+     <td>
+      DIO
+      <br/>
+      (O-H)
+     </td>
+     <td>
+      Reset pin. Active Low Output.
+      <br/>
+      May be pulled low by external open drain driver to reset the DW3000.
+     </td>
+    </tr>
+    <tr>
+     <th colspan="8">
+      Power Supplies
+     </th>
+    </tr>
+    <tr>
+     <td>
+      VDD1
+     </td>
+     <td>
+      5
+     </td>
+     <td>
+      P
+     </td>
+     <td>
+      External supply for the Always-On (AON) portion of the chip.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      VDD3V3
+     </td>
+     <td>
+      6,7
+     </td>
+     <td>
+      P
+     </td>
+     <td>
+      3 V supply pins.
+     </td>
+    </tr>
+    <tr>
+     <td colspan="7">
+      Ground
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GND
+     </td>
+     <td>
+      8,16, 21,23,24
+     </td>
+     <td>
+      G
+     </td>
+     <td>
+      Common ground.
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h4>
+   <b>
+    Table 3: Explanation of Abbreviations
+   </b>
+  </h4>
+  <span id="page-11-0">
+  </span>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Abbreviation
+     </th>
+     <th>
+      Explanation
+     </th>
+    </tr>
+    <tr>
+     <td>
+      I
+     </td>
+     <td>
+      Input
+     </td>
+    </tr>
+    <tr>
+     <td>
+      IO
+     </td>
+     <td>
+      Input / Output
+     </td>
+    </tr>
+    <tr>
+     <td>
+      O
+     </td>
+     <td>
+      Output
+     </td>
+    </tr>
+    <tr>
+     <td>
+      G
+     </td>
+     <td>
+      Ground
+     </td>
+    </tr>
+    <tr>
+     <td>
+      P
+     </td>
+     <td>
+      Power Supply
+     </td>
+    </tr>
+    <tr>
+     <td>
+      PD
+     </td>
+     <td>
+      Power Decoupling
+     </td>
+    </tr>
+    <tr>
+     <td>
+      O-L
+     </td>
+     <td>
+      Defaults to output, low level after reset
+     </td>
+    </tr>
+    <tr>
+     <td>
+      O-H
+     </td>
+     <td>
+      Defaults to output, high level after reset
+     </td>
+    </tr>
+    <tr>
+     <td>
+      I
+     </td>
+     <td>
+      Defaults to input.
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <p block-type="Text">
+   <i>
+    Note: Any signal with the suffix 'n' indicates an active low signal.
+   </i>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h2>
+   <span id="page-12-0">
+   </span>
+   <b>
+    4 Electrical Specifications
+   </b>
+  </h2>
+  <h4>
+   <span id="page-12-1">
+   </span>
+   <b>
+    4.1 Nominal Operating Conditions
+   </b>
+  </h4>
+  <h4>
+   <b>
+    Table 4: DWM3000 Operating Conditions
+   </b>
+  </h4>
+  <span id="page-12-3">
+  </span>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Parameter
+     </th>
+     <th>
+      Min.
+     </th>
+     <th>
+      Typ.
+     </th>
+     <th>
+      Max.
+     </th>
+     <th>
+      Units
+     </th>
+     <th>
+      Condition
+      <br/>
+      /
+      <br/>
+      Note
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Operating temperature
+     </td>
+     <td>
+      -40
+     </td>
+     <td>
+     </td>
+     <td>
+      +85
+     </td>
+     <td>
+      ˚C
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Supply voltage VDD1
+     </td>
+     <td>
+      1.62
+     </td>
+     <td>
+     </td>
+     <td>
+      3.6
+     </td>
+     <td>
+      V
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Supply voltage VDD3V3
+     </td>
+     <td>
+      2.5
+     </td>
+     <td>
+     </td>
+     <td>
+      3.6
+     </td>
+     <td>
+      V
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Voltage on digital pins
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      3.6
+     </td>
+     <td>
+      V
+     </td>
+     <td>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <p block-type="Text">
+   <i>
+    Note: Unit operation is guaranteed by design when operating within these ranges
+   </i>
+  </p>
+  <h3>
+   <span id="page-12-2">
+   </span>
+   <b>
+    4.2 DC Characteristics
+   </b>
+  </h3>
+  <p block-type="Text">
+   Tamb = 25 ˚C, all supplies centered on typical values
+  </p>
+  <h4>
+   <b>
+    Table 5: DWM3000 DC Characteristics
+   </b>
+  </h4>
+  <span id="page-12-4">
+  </span>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Parameter
+     </th>
+     <th>
+      Min.
+     </th>
+     <th>
+      Typ.
+     </th>
+     <th>
+      Max.
+     </th>
+     <th>
+      Units
+     </th>
+     <th>
+      Condition
+      <br/>
+      /
+      <br/>
+      Note
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Supply current DEEP SLEEP mode
+     </td>
+     <td>
+     </td>
+     <td>
+      260
+     </td>
+     <td>
+     </td>
+     <td>
+      nA
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Supply current SLEEP mode
+     </td>
+     <td>
+     </td>
+     <td>
+      850
+     </td>
+     <td>
+     </td>
+     <td>
+      nA
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Supply current CH5 IDLE mode
+     </td>
+     <td>
+     </td>
+     <td>
+      12
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td rowspan="2">
+      Total current drawn from all
+      <br/>
+      supplies.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Supply current CH9 IDLE mode
+     </td>
+     <td>
+     </td>
+     <td>
+      20
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Supply current CH5 INIT mode
+     </td>
+     <td>
+     </td>
+     <td>
+      6
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Supply current CH9 INIT mode
+     </td>
+     <td>
+     </td>
+     <td>
+      6
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      CH5 TX: 3.3 V supplies
+      <br/>
+      (VDD1, VDD3V3)
+     </td>
+     <td>
+     </td>
+     <td>
+      40
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      CH9 TX: 3.3 V supplies
+      <br/>
+      (VDD1, VDD3V3)
+     </td>
+     <td>
+     </td>
+     <td>
+      45
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      CH5 RX: 3.3 V supplies
+      <br/>
+      (VDD1, VDD3V3)
+     </td>
+     <td>
+     </td>
+     <td>
+      50
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td>
+      Receiver active, no frames
+      <br/>
+      received
+     </td>
+    </tr>
+    <tr>
+     <td>
+      CH9 RX: 3.3 V supplies
+      <br/>
+      (VDD1, VDD3V3)
+     </td>
+     <td>
+     </td>
+     <td>
+      55
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td>
+      Receiver active, no frames
+      <br/>
+      received
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Digital input voltage high
+     </td>
+     <td>
+      0.7*VDD1
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      V
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Digital input voltage low
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      0.3*VDD1
+     </td>
+     <td>
+      V
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Digital output voltage high
+     </td>
+     <td>
+      0.7*VDD1
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      V
+     </td>
+     <td>
+      Assumes 500 Ω load
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Digital output voltage low
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      0.3*VDD1
+     </td>
+     <td>
+      V
+     </td>
+     <td>
+      Assumes 500 Ω load
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Digital Output Drive Current GPIOx, IRQ
+     </td>
+     <td>
+     </td>
+     <td>
+      0.8
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Digital Output Drive Current SPIMISO
+     </td>
+     <td>
+      8
+     </td>
+     <td>
+      10
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Digital Output Drive Current EXTON
+     </td>
+     <td>
+      3
+     </td>
+     <td>
+      4
+     </td>
+     <td>
+     </td>
+     <td>
+      mA
+     </td>
+     <td>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h4>
+   <span id="page-13-0">
+   </span>
+   <b>
+    4.3 Receiver AC Characteristics
+   </b>
+  </h4>
+  <p block-type="Text">
+   Tamb = 25 ˚C, all supplies centered on nominal values
+  </p>
+  <h4>
+   <b>
+    Table 6: DWM3000 Receiver AC Characteristics
+   </b>
+  </h4>
+  <span id="page-13-4">
+  </span>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Parameter
+     </th>
+     <th>
+      Min.
+     </th>
+     <th>
+      Typ.
+     </th>
+     <th>
+      Max.
+     </th>
+     <th>
+      Units
+     </th>
+     <th>
+      Condition
+      <br/>
+      /
+      <br/>
+      Note
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Centre Frequency CH5
+     </td>
+     <td>
+     </td>
+     <td>
+      6489.6
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Centre Frequency CH9
+     </td>
+     <td>
+     </td>
+     <td>
+      7987.2
+     </td>
+     <td>
+     </td>
+     <td>
+      MHz
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Channel bandwidth
+     </td>
+     <td>
+     </td>
+     <td>
+      500
+     </td>
+     <td>
+     </td>
+     <td>
+     </td>
+     <td>
+      Channel 5 and 9
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h4>
+   <span id="page-13-1">
+   </span>
+   <b>
+    4.4 Reference Clock AC Characteristics
+   </b>
+  </h4>
+  <p block-type="Text">
+   Tamb = 25 ˚C, all supplies centered on typical values
+  </p>
+  <h4>
+   <span id="page-13-5">
+   </span>
+   <span id="page-13-2">
+   </span>
+   4.4.1 Reference Frequency
+  </h4>
+  <h4>
+   <b>
+    Table 7: Reference Clock AC Characteristics
+   </b>
+  </h4>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Parameter
+     </th>
+     <th>
+      Min.
+     </th>
+     <th>
+      Typ.
+     </th>
+     <th>
+      Max.
+     </th>
+     <th>
+      Units
+     </th>
+     <th>
+      Condition
+      <br/>
+      /
+      <br/>
+      Note
+     </th>
+    </tr>
+    <tr>
+     <td>
+      On-board crystal oscillator reference frequency
+     </td>
+     <td>
+     </td>
+     <td>
+      38.4
+     </td>
+     <td>
+     </td>
+     <td>
+      MHz
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      On-board crystal aging
+     </td>
+     <td>
+     </td>
+     <td>
+      ±1
+     </td>
+     <td>
+     </td>
+     <td>
+      ppm in 1st year
+     </td>
+     <td>
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h4>
+   <span id="page-13-3">
+   </span>
+   <b>
+    4.5 Transmitter AC Characteristics
+   </b>
+  </h4>
+  <p block-type="Text">
+   Tamb = 25 ˚C, all supplies centered on typical values
+  </p>
+  <h4>
+   <b>
+    Table 8: DWM3000 Transmitter AC Characteristics
+   </b>
+  </h4>
+  <span id="page-13-6">
+  </span>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Parameter
+     </th>
+     <th>
+      Min.
+     </th>
+     <th>
+      Typ.
+     </th>
+     <th>
+      Max.
+     </th>
+     <th>
+      Units
+     </th>
+     <th>
+      Condition
+      <br/>
+      /
+      <br/>
+      Note
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Frequency range
+     </td>
+     <td>
+      6250
+     </td>
+     <td>
+     </td>
+     <td>
+      8250
+     </td>
+     <td>
+      MHz
+     </td>
+     <td>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Channel Bandwidths
+     </td>
+     <td>
+     </td>
+     <td>
+      500
+     </td>
+     <td>
+     </td>
+     <td>
+      MHz
+     </td>
+     <td>
+      Channel 5 and 9
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-14-1">
+   </span>
+   <span id="page-14-0">
+   </span>
+   <b>
+    4.6 Absolute Maximum Ratings
+   </b>
+  </h3>
+  <h4>
+   <b>
+    Table 9: DWM3000 Absolute Maximum Ratings
+   </b>
+  </h4>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Parameter
+     </th>
+     <th>
+      Min.
+     </th>
+     <th>
+      Max.
+     </th>
+     <th>
+      Units
+     </th>
+    </tr>
+    <tr>
+     <td>
+      Voltage
+      <br/>
+      VDD3V3 / VDD1
+     </td>
+     <td>
+      -0.3
+     </td>
+     <td>
+      4.0
+     </td>
+     <td>
+      V
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Receiver Power
+     </td>
+     <td>
+     </td>
+     <td>
+      0
+     </td>
+     <td>
+      dBm
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Temperature - Storage temperature
+     </td>
+     <td>
+      -40
+     </td>
+     <td>
+      +125
+     </td>
+     <td>
+      ˚C
+     </td>
+    </tr>
+    <tr>
+     <td>
+      Temperature - Operating temperature
+     </td>
+     <td>
+      -40
+     </td>
+     <td>
+      +85
+     </td>
+     <td>
+      ˚C
+     </td>
+    </tr>
+    <tr>
+     <td>
+      ESD (Charged Device Model)
+     </td>
+     <td>
+     </td>
+     <td>
+      1000
+     </td>
+     <td>
+      V
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <p block-type="Text">
+   Stresses beyond those listed in this table may cause permanent damage to the device. This is a stress rating only; functional operation  of the device at these or any other conditions beyond those indicated in the operating conditions of the specification is not implied.  Exposure to the absolute maximum rating conditions for extended periods may affect device reliability.
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-15-0">
+   </span>
+   <b>
+    5 Antenna Performance
+   </b>
+  </h3>
+  <p block-type="Text">
+   This section presents antenna radiation patterns for the DWM3000. As is illustrated in
+   <a href="#page-15-1">
+    Figure 9,
+   </a>
+   measured radiation patterns were made  with the module mounted on a DWM3000EVB evaluation board.
+  </p>
+  <p block-type="Text">
+   <a href="#page-16-0">
+    Table 10
+   </a>
+   and
+   <a href="#page-17-0">
+    Table 11
+   </a>
+   show antenna radiation patterns in channels 5 and 9, respectively. Three planes in spherical space about the  centre of the board are measured, with theta and phi plots representing perpendicular polarisations.
+  </p>
+  <p block-type="Text">
+   The DWM3000 antenna is vertically polarised, meaning that the module is intended to be positioned vertically upright when used in an  RTLS system. An omnidirectional radiation pattern is seen in the XZ plane when observed by another antenna which is also vertically  polarised. This is shown in the XZ plane antenna patterns, where the vertically polarised plot, phi, has a circular, or omnidirectional  shape.
+  </p>
+  <p block-type="Text">
+   If the antennas are oriented perpendicular relative to each other, then the polarisation changes. In this case, the horizontally polarised  pattern, theta, applies and there are nulls at certain angles which can limit range and introduce location inaccuracy.
+  </p>
+  <p>
+   <img src="_page_15_Figure_7.jpeg"/>
+  </p>
+  <p>
+   <span id="page-15-1">
+   </span>
+   <b>
+    Figure 9: Radiation Pattern Planes
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <p>
+   <span id="page-16-0">
+   </span>
+   <img src="_page_16_Figure_2.jpeg"/>
+  </p>
+  <p block-type="Text">
+   <b>
+    Table 10: Antenna Radiation Patterns - Channel 5
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <p>
+   <span id="page-17-0">
+   </span>
+   <img src="_page_17_Figure_2.jpeg"/>
+  </p>
+  <p block-type="Text">
+   <b>
+    Table 11: Antenna Radiation Patterns - Channel 9
+   </b>
+  </p>
+  <h2>
+   <span id="page-18-0">
+   </span>
+   <b>
+    6 Application Information
+   </b>
+  </h2>
+  <h4>
+   <span id="page-18-1">
+   </span>
+   <b>
+    6.1 Application Board Layout Guidelines
+   </b>
+  </h4>
+  <p block-type="Text">
+   When designing the PCB onto which DWM3000 will be soldered, the proximity of the DWM3000 on-board ceramic monopole antenna to  metal and other non-RF transparent materials needs to be considered carefully. Two suggested placement schemes are shown below.
+  </p>
+  <h4>
+   <b>
+    For best RF performance, ground copper should be flooded in all areas of the application board, except in the areas marked  "Keep-Out Area", where there should be no metal either side, above or below (e.g., do not place battery under antenna).
+   </b>
+  </h4>
+  <p block-type="Text">
+   The placement schemes in
+   <a href="#page-18-2">
+    Figure 10
+   </a>
+   show an application board with no non-RF transparent material in the keep-out area, or an  application board with the antenna projecting off of the board so that the keep out area is in free-space. In this second scheme it is still  important not to place metal components above or below the antenna in a system implementation. It is also important to note that the  ground plane on the application board affects the DWM3000 antenna radiation pattern. In
+   <a href="#page-18-2">
+    Figure 10
+   </a>
+   below, 'd' should ideally be 10 mm.  This gives the most vertically polarized radiation pattern. As 'd' is increased from 10 mm the degree of vertical polarization reduces.
+  </p>
+  <p>
+   <img src="_page_18_Figure_7.jpeg"/>
+  </p>
+  <p>
+   <span id="page-18-2">
+   </span>
+   <b>
+    Figure 10: Application Board Keep-Out Areas
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-19-0">
+   </span>
+   <b>
+    6.2 Application Circuit Diagram
+   </b>
+  </h3>
+  <p block-type="Text">
+   A simple application circuit integrating the DWM3000 module need only power the device and connect the device to a host controller,  see
+   <a href="#page-19-2">
+    Figure 11.
+   </a>
+  </p>
+  <p>
+   <img src="_page_19_Figure_4.jpeg"/>
+  </p>
+  <p>
+   <b>
+    Figure 11: Example DWM3000 Application Circuit
+   </b>
+  </p>
+  <h3>
+   <span id="page-19-2">
+   </span>
+   <span id="page-19-1">
+   </span>
+   <b>
+    6.3 GPIO and SPI I/O Internal Pull Up / Down
+   </b>
+  </h3>
+  <p block-type="Text">
+   All of the GPIO pins have a software controllable internal pull up/down resistor to ensure safe operation when input pins are not driven.  This defaults to enabled and pull-down except for the SPICSn pin which defaults to pull-up. The value of the pull-up / down will vary  with the VDD1 supply voltage over a range from 10 kΩ to 30 kΩ.
+  </p>
+  <p>
+   <img src="_page_19_Figure_8.jpeg"/>
+  </p>
+  <p>
+   <span id="page-19-3">
+   </span>
+   <b>
+    Figure 12: SPI and GPIO Pull Up / Down
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h2>
+   <span id="page-20-0">
+   </span>
+   <b>
+    7 Package Information
+   </b>
+  </h2>
+  <h4>
+   <span id="page-20-1">
+   </span>
+   <b>
+    7.1 Module Drawings
+   </b>
+  </h4>
+  <p>
+   <img src="_page_20_Figure_4.jpeg"/>
+  </p>
+  <p>
+   <span id="page-20-2">
+   </span>
+   <b>
+    Figure 13: Module Package Size (mm)
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-21-0">
+   </span>
+   <b>
+    7.2 Module Land Pattern
+   </b>
+  </h3>
+  <p block-type="Text">
+   The diagram below shows the DWM3000 module land pattern.
+  </p>
+  <p>
+   <img src="_page_21_Figure_4.jpeg"/>
+  </p>
+  <p>
+   <b>
+    Figure 14: Module Land Pattern (units: mm)
+   </b>
+  </p>
+  <h3>
+   <span id="page-21-2">
+   </span>
+   <span id="page-21-1">
+   </span>
+   <b>
+    7.3 Module Marking Information
+   </b>
+  </h3>
+  <p block-type="Text">
+   <span id="page-21-3">
+   </span>
+   The module is identified by a sticker on the shield can which gives the part number and serial number as follows:  "YY" is year, "WW" is calendar week number (week code per ISO-8601), "3" is DWM3000, SSSSS is serial number: 00001, 00002…….
+  </p>
+  <p>
+   <img src="_page_21_Figure_8.jpeg"/>
+  </p>
+  <p>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-22-0">
+   </span>
+   <b>
+    7.4 Module Solder Profile
+   </b>
+  </h3>
+  <p>
+   <img src="_page_22_Figure_3.jpeg"/>
+  </p>
+  <span id="page-22-1">
+  </span>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+     </th>
+     <th>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      Range
+     </th>
+     <th>
+      Condition
+     </th>
+    </tr>
+    <tr>
+     <th>
+      <math>
+       50 - 120
+      </math>
+      [
+      <math>
+       ^{\circ}
+      </math>
+      C]
+     </th>
+     <th>
+      <math>
+       1.0 - 2.0
+      </math>
+      [
+      <math>
+       °C/s
+      </math>
+      ]
+     </th>
+    </tr>
+    <tr>
+     <th>
+      <math>
+       130 - 170
+      </math>
+      <math>
+       ^{\circ}
+      </math>
+      <math>
+       ^{\circ}
+      </math>
+      <math>
+       \text{Cl}
+      </math>
+     </th>
+     <th>
+      <math>
+       30 - 60
+      </math>
+      [s]
+     </th>
+    </tr>
+    <tr>
+     <th>
+      <math>
+       170 - 227
+      </math>
+      [
+      <math>
+       ^{\circ}
+      </math>
+      C]
+     </th>
+     <th>
+      <math>
+       50 - 110
+      </math>
+      [s]
+     </th>
+    </tr>
+    <tr>
+     <th>
+      <math>
+       &gt;227
+      </math>
+      [°C]
+     </th>
+     <th>
+      <math>
+       45 - 90
+      </math>
+      [s]
+     </th>
+    </tr>
+    <tr>
+     <th>
+      <math>
+       250 - 90
+      </math>
+      <math>
+       ^{\circ}
+      </math>
+      <math>
+       ^{\circ}
+      </math>
+      <math>
+       ^{\circ}
+      </math>
+      <math>
+       ^{\circ}
+      </math>
+     </th>
+     <th>
+      <math>
+       1.0 - 4.0
+      </math>
+      <math>
+       \binom{°C}{s}
+      </math>
+     </th>
+    </tr>
+    <tr>
+     <th>
+      <math>
+       250
+      </math>
+      <math>
+       ^{\circ}
+      </math>
+      <math>
+       ^{\circ}
+      </math>
+      <math>
+       \text{C}
+      </math>
+     </th>
+     <th>
+      <math>
+       \overline{\phantom{a}}
+      </math>
+     </th>
+    </tr>
+    <tr>
+     <th>
+     </th>
+     <th>
+     </th>
+    </tr>
+   </tbody>
+  </table>
+  <p>
+   <b>
+    Figure 16: DWM3000 Module Solder Profile
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h4>
+   <span id="page-23-0">
+   </span>
+   <b>
+    7.5 Tape and Reel Information
+   </b>
+  </h4>
+  <p>
+   <img src="_page_23_Figure_3.jpeg"/>
+  </p>
+  <p>
+   <img src="_page_23_Figure_4.jpeg"/>
+  </p>
+  <p>
+   <span id="page-23-1">
+   </span>
+   <img src="_page_23_Figure_5.jpeg"/>
+  </p>
+  <p>
+   <span id="page-23-2">
+   </span>
+   <b>
+    Figure 18: Module Tape Carrier Dimension (mm)
+   </b>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <span id="page-24-0">
+   </span>
+   <b>
+    8 Glossary
+   </b>
+  </h3>
+  <h4>
+   <b>
+    Table 12: Glossary of Terms
+   </b>
+  </h4>
+  <span id="page-24-1">
+  </span>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Abbreviation
+     </th>
+     <th>
+      Full Title
+     </th>
+     <th>
+      Explanation
+     </th>
+    </tr>
+    <tr>
+     <td>
+      EIRP
+     </td>
+     <td>
+      Equivalent Isotropic
+      <br/>
+      Radiated Power
+     </td>
+     <td>
+      The amount of power that a theoretical isotropic antenna (which evenly distributes power in
+      <br/>
+      all directions) would emit to produce the peak power density observed in the direction of
+      <br/>
+      maximum gain of the antenna being used.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      ETSI
+     </td>
+     <td>
+      European
+      <br/>
+      Telecommunication
+      <br/>
+      Standards Institute
+     </td>
+     <td>
+      Regulatory body in the EU charged with the management of the radio spectrum and the
+      <br/>
+      setting of regulations for devices that use it.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      FCC
+     </td>
+     <td>
+      Federal
+      <br/>
+      Communications
+      <br/>
+      Commission
+     </td>
+     <td>
+      Regulatory body in the USA charged with the management of the radio spectrum and the
+      <br/>
+      setting of regulations for devices that use it.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      GPIO
+     </td>
+     <td>
+      General Purpose
+      <br/>
+      Input / Output
+     </td>
+     <td>
+      Pin of an IC that can be configured as an input or output under software control and has no
+      <br/>
+      specifically identified function.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      IEEE
+     </td>
+     <td>
+      Institute of
+      <br/>
+      Electrical and
+      <br/>
+      Electronic
+      <br/>
+      Engineers
+     </td>
+     <td>
+      Is the world's largest technical professional society. It is designed to serve professionals
+      <br/>
+      involved in all aspects of the electrical, electronic and computing fields and related areas of
+      <br/>
+      science and technology.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      PLL
+     </td>
+     <td>
+      Phase Locked
+      <br/>
+      Loop
+     </td>
+     <td>
+      Circuit designed to generate a signal at a particular frequency whose phase is related to an
+      <br/>
+      incoming "reference" signal.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      PPM
+     </td>
+     <td>
+      Parts Per Million
+     </td>
+     <td>
+      Used to quantify very small relative proportions. Just as 1% is one out of a hundred, 1 ppm
+      <br/>
+      is one part in a million.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      RF
+     </td>
+     <td>
+      Radio Frequency
+     </td>
+     <td>
+      Generally used to refer to signals in the range of 3 kHz to 300 GHz. In the context of a
+      <br/>
+      radio receiver, the term is generally used to refer to circuits in a receiver before
+      <br/>
+      down-conversion takes place and in a transmitter after up-conversion takes place.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      RTLS
+     </td>
+     <td>
+      Real Time Location
+      <br/>
+      System
+     </td>
+     <td>
+      System intended to provide information on the location of various items in real-time.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      SFD
+     </td>
+     <td>
+      Start of Frame
+      <br/>
+      Delimiter
+     </td>
+     <td>
+      Defined in the context of the IEEE 802.15.4-2011 standard.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      SPI
+     </td>
+     <td>
+      Serial Peripheral
+      <br/>
+      Interface
+     </td>
+     <td>
+      An industry standard method for interfacing between IC's using a synchronous serial
+      <br/>
+      scheme first introduced by Motorola.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      TCXO
+     </td>
+     <td>
+      Temperature
+      <br/>
+      Controlled Crystal
+      <br/>
+      Oscillator
+     </td>
+     <td>
+      A crystal oscillator whose output frequency is very accurately maintained at its specified
+      <br/>
+      value over its specified temperature range of operation.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      TWR
+     </td>
+     <td>
+      Two Way Ranging
+     </td>
+     <td>
+      Method of measuring the physical distance between two radio units by exchanging
+      <br/>
+      messages between the units and noting the times of transmission and reception. Refer to
+      <br/>
+      Qorvo's website for further information.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      TDoA
+     </td>
+     <td>
+      Time Difference of
+      <br/>
+      Arrival
+     </td>
+     <td>
+      Method of deriving information on the location of a transmitter. The time of arrival of a
+      <br/>
+      transmission at two physically different locations whose clocks are synchronized is noted
+      <br/>
+      and the difference in the arrival times provides information on the location of the
+      <br/>
+      transmitter. A number of such TDoA measurements at different locations can be used to
+      <br/>
+      uniquely determine the position of the transmitter. Refer to Qorvo's website for further
+      <br/>
+      information.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      UWB
+     </td>
+     <td>
+      Ultra-Wideband
+     </td>
+     <td>
+      A radio scheme employing channel bandwidths of, or in excess of, 500 MHz.
+     </td>
+    </tr>
+    <tr>
+     <td>
+      WSN
+     </td>
+     <td>
+      Wireless Sensor
+      <br/>
+      Network
+     </td>
+     <td>
+      A network of wireless nodes intended to enable the monitoring and control of the physical
+      <br/>
+      environment.
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h2>
+   <span id="page-25-0">
+   </span>
+   <b>
+    9 Revision History
+   </b>
+  </h2>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Revision
+     </th>
+     <th>
+     </th>
+     <th>
+      Change Description
+     </th>
+    </tr>
+    <tr>
+     <td>
+      A
+     </td>
+     <td>
+     </td>
+     <td>
+      Preliminary version
+     </td>
+    </tr>
+    <tr>
+     <td>
+      B
+     </td>
+     <td>
+      May 2021
+     </td>
+     <td>
+      Updated for production release, completion of outstanding information.
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h2>
+   <span id="page-25-1">
+   </span>
+   <b>
+    10 Further Information
+   </b>
+  </h2>
+  <p block-type="Text">
+   Qorvo develops semiconductors solutions, software, modules, reference designs - that enable real-time, ultra-accurate, ultra-reliable  local area micro-location services. Qorvo's technology enables an entirely new class of easy to implement, highly secure, intelligent  location functionality and services for IoT and smart consumer products and applications.
+  </p>
+  <p block-type="Text">
+   For further information on this or any other Qorvo product, please refer to our websit
+   <a href="http://www.qorvo.com/">
+    e www.qorvo.com.
+   </a>
+  </p>
+  <h3>
+   <b>
+    Handling Precautions
+   </b>
+  </h3>
+  <table>
+   <tbody>
+    <tr>
+     <th>
+      Parameter
+     </th>
+     <th>
+      Rating
+     </th>
+     <th>
+      Standard
+     </th>
+    </tr>
+    <tr>
+     <td>
+      ESD - Charged Device Model (CDM)
+     </td>
+     <td>
+      1000V
+     </td>
+     <td>
+      ANSI/ESDA/JEDEC JS-002
+     </td>
+    </tr>
+    <tr>
+     <td>
+      MSL – Moisture Sensitivity Level
+     </td>
+     <td>
+      Level 3
+     </td>
+     <td>
+      IPC/JEDEC J-STD-020
+     </td>
+    </tr>
+   </tbody>
+  </table>
+  <h3>
+   <b>
+    Regulatory Approvals
+   </b>
+  </h3>
+  <p block-type="Text">
+   The DWM3000, as supplied from Qorvo, has not been certified for use in any particular geographic region by the appropriate regulatory  body governing radio emissions in that region although it is capable of such certification depending on the region and the manner in  which it is used.
+  </p>
+  <p block-type="Text">
+   All products developed by the user incorporating the DWM3000 must be approved by the relevant authority governing radio emissions  in any given jurisdiction prior to the marketing or sale of such products in that jurisdiction and user bears all responsibility for obtaining  such approval as needed from the appropriate authorities.
+  </p>
+  <h3>
+   <b>
+    RoHS Compliance
+   </b>
+  </h3>
+  <p block-type="Text">
+   This part is compliant with 2011/65/EU RoHS directive (Restrictions on the Use of Certain Hazardous Substances in Electrical and  Electronic Equipment) as amended by Directive 2015/863/EU.
+  </p>
+  <p block-type="Text">
+   This product also has the following attributes:
+  </p>
+  <p block-type="ListGroup">
+   <ul>
+    <li block-type="ListItem">
+     Antimony Free
+    </li>
+    <li block-type="ListItem">
+     TBBP-A (C15H12Br402) Free
+    </li>
+    <li block-type="ListItem">
+     SVHC Free
+    </li>
+   </ul>
+  </p>
+  <h1>
+   <b>
+    DWM3000 IEEE 802.15.4-z UWB Transceiver Module
+   </b>
+  </h1>
+  <h3>
+   <b>
+    Contact Information
+   </b>
+  </h3>
+  <p block-type="Text">
+   For the latest specifications, additional product information, worldwide sales and distribution locations:
+  </p>
+  <p block-type="Text">
+   <b>
+    Web:
+   </b>
+   <a href="http://www.qorvo.com/">
+    www.qorvo.com
+   </a>
+  </p>
+  <p block-type="Text">
+   <b>
+    Tel:
+   </b>
+   1-844-890-8163
+  </p>
+  <p block-type="Text">
+   <b>
+    Email:
+   </b>
+   <a href="mailto:customer.support@qorvo.com">
+    customer.support@qorvo.com
+   </a>
+  </p>
+  <h2>
+   <b>
+    Important Notice
+   </b>
+  </h2>
+  <p block-type="Text">
+   The information contained in this Data Sheet and any associated documents ("Data Sheet Information") is believed to be reliable; however, Qorvo makes no warranties  regarding the Data Sheet Information and assumes no responsibility or liability whatsoever for the use of said information. All Data Sheet Information is subject to change  without notice. Customers should obtain and verify the latest relevant Data Sheet Information before placing orders for Qorvo® products. Data Sheet Information or the use  thereof does not grant, explicitly, implicitly or otherwise any rights or licenses to any third party with respect to patents or any other intellectual property whether with regard to  such Data Sheet Information itself or anything described by such information.
+  </p>
+  <p block-type="Text">
+   DATA SHEET INFORMATION DOES NOT CONSTITUTE A WARRANTY WITH RESPECT TO THE PRODUCTS DESCRIBED HEREIN, AND QORVO HEREBY  DISCLAIMS ANY AND ALL WARRANTIES WITH RESPECT TO SUCH PRODUCTS WHETHER EXPRESS OR IMPLIED BY LAW, COURSE OF DEALING, COURSE OF  PERFORMANCE, USAGE OF TRADE OR OTHERWISE, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR  PURPOSE. Without limiting the generality of the foregoing, Qorvo® products are not warranted or authorized for use as critical components in medical, life-saving, or lifesustaining applications, or other applications where a failure would reasonably be expected to cause severe personal injury or death. Applications described in the Data Sheet  Information are for illustrative purposes only. Customers are responsible for validating that a particular product described in the Data Sheet Information is suitable for use in a  particular application.
+  </p>
+  <p block-type="Text">
+   FiRa, FiRa Consortium, the FiRa logo, the FiRa Certified logo, and FiRa tagline are trademarks or registered trademarks of FiRa Consortium or its licensor(s)/ supplier(s) in  the US and other countries and may not be used without permission. All other trademarks, service marks, and product or service names are trademarks or registered  trademarks of their respective owners.
+  </p>
+  <p block-type="Text">
+   © 2021 Qorvo US, Inc. All rights reserved. This document is subject to copyright laws in various jurisdictions worldwide and may not be reproduced or distributed, in whole or  in part, without the express written consent of Qorvo US, Inc. | QORVO® is a registered trademark of Qorvo US, Inc.
+  </p>
+ </body>
+</html>
