@@ -35,4 +35,8 @@ I've worked on a lot of projects, but here are some of the more interesting ones
 - **[Tradfri-Ambilight](https://github.com/CaramelFur/Tradfri-Ambilight)**: A project that creates an "Ambilight" experience using the old Ikea Tradfri gateway and bulbs.
 - **Backblaze-Reverse**: A project where I reverse-engineered the entire Backblaze personal backup API to see if I could create an implementation on Linux. But the API was too complicated for me to bother actually re-implementing it. If someone wants to continue this, hit me up for my findings.
 
+### Docs
 
+I need certain documentation files in HTML form and hosted online.
+
+[Here is the link to the docs](/docs/index.html).
